@@ -1,0 +1,376 @@
+- month_name: January
+  month: 1
+  day_name: Wednesday
+  day: 11
+  topic:
+  reading: 
+  assignment:
+
+- month_name: January
+  month: 1
+  day_name: Friday
+  day: 13
+  topic:
+  reading:
+  assignment:
+
+- month_name: January
+  month: 1
+  day_name: Monday
+  day: 16
+  topic:
+  reading: 
+  assignment:
+
+- month_name: January
+  month: 1
+  day_name: Wednesday
+  day: 18
+  topic:
+  reading:
+  assignment:
+
+- month_name: January
+  month: 1
+  day_name: Friday
+  day: 20
+  topic: 
+  reading:
+  assignment:
+
+- month_name: January
+  month: 1
+  day_name: Monday
+  day: 23
+  topic: 
+  reading: 
+  assignment:
+
+- month_name: January
+  month: 1
+  day_name: Wednesday
+  day: 25
+  topic: 
+  reading: 
+  assignment:
+
+- month_name: January
+  month: 1
+  day_name: Friday
+  day: 27
+  topic: 
+  reading: 
+  assignment: 
+
+- month_name: January
+  month: 1
+  day_name: Monday
+  day: 30
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Wednesday
+  day: 1
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Friday
+  day: 3
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Monday
+  day: 6
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Wednesday
+  day: 8
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Friday
+  day: 10
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Monday
+  day: 13
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Wednesday
+  day: 15
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Friday
+  day: 17
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Monday
+  day: 20
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Wednesday
+  day: 22
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Friday
+  day: 24
+  topic:
+  reading:
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Monday
+  day: 27
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Wednesday
+  day: 1
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Friday
+  day: 3
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Monday
+  day: 6
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Wednesday
+  day: 8
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Friday
+  day: 10
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Monday
+  day: 13
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Wednesday
+  day: 15
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Friday
+  day: 17
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Monday
+  day: 20
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Wednesday
+  day: 22
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Friday
+  day: 24
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Monday
+  day: 27
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Wednesday
+  day: 29
+  topic:
+  reading:
+  assignment:
+
+- month_name: March
+  month: 3
+  day_name: Friday
+  day: 31
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Monday
+  day: 3
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Wednesday
+  day: 5
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Friday
+  day: 7
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Monday
+  day: 10
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Wednesday
+  day: 12
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Friday
+  day: 14
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Monday
+  day: 17
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Wednesday
+  day: 19
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Friday
+  day: 21
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Monday
+  day: 24
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Wednesday
+  day: 26
+  topic:
+  reading:
+  assignment:
+
+- month_name: April
+  month: 4
+  day_name: Friday
+  day: 28
+  topic:
+  reading:
+  assignment:
+

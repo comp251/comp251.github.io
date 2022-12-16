@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
@@ -17,6 +18,21 @@ Other than that, you're free to customize sites that you create with this templa
 [Browse our documentation][Just the Docs] to learn more about how to use this theme.
 
 To get started with creating a site, just click "[use this template]"!
+
+
+## Course Schedule
+
+<div class="module" markdown="1">
+{% for date in site.data.days %}
+
+{{ date.day_name }} {{ date.month }}/{{ date.day }}
+: {% if date.topic %} {{ date.topic }} {% else %} \- {% endif %}
+{% if date.reading %}: {{ date.reading }} {% endif %}
+{% if date.assignment %}: {{ date.assignment }} {% endif %}
+
+{% endfor %}
+</div>
+
 
 ----
 
