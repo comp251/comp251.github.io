@@ -11,7 +11,7 @@ nav_order: 0
   * [My calendar](https://tinyr.us/lang-cal); book time
     using [calendly.com/langma](https://calendly.com/lang-cal)
 * This website: [comp251.github.io](https://comp251.github.io)/[251.systems](http://251.systems)
-* [CS Program Slack](https://rhodes-cs.slack.com): `#comp251-sp23`
+* [CS Program Slack](https://rhodes-cs.slack.com): `#comp251`
 
 {% for ann in site.data.announcements %}
 {% if ann.date > site.time %}

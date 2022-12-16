@@ -21,7 +21,7 @@ Before Friday, do the following:
   Write down three questions, feelings, or apprehensions that you have about the
   tools we'll be using (it's ok if you have no idea what anything is).
 * Join the [CS Department Slack](https://rhodes-cs.slack.com) and join
-  `#comp251-sp23`.
+  `#comp251`.
 
 {: .important }
 I will use the survey to generate a list of GitHub account names -- you *must*
