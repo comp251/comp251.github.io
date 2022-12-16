@@ -10,6 +10,10 @@ nav_order: 3
 
 # `git` and GitHub
 
+Make sure that you [sign up](https://github.com/signup) for a GitHub account and
+activate your [benefits for
+students](https://education.github.com/discount_requests/pack_application).
+
 You'll be writing Markdown files for lab writeups. GitHub has provided a nice
 [cheat
 sheet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
