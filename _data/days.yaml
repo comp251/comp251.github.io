@@ -2,23 +2,23 @@
   month: 1
   day_name: Wednesday
   day: 11
-  topic: 
-  reading:  
+  topic: Welcome! What is systems? Course overview; syllabus
+  reading: "[Welcome survey](homework/welcome){: .btn-purple }"
   assignment: 
 
 - month_name: January
   month: 1
   day_name: Friday
   day: 13
-  topic: 
+  topic: What is a computer? 🧐 Intro to Linux (part 1).
   reading:
-  assignment:
+  assignment: "[Lab 0](labs/lab0){: .btn-blue }"
 
 - month_name: January
   month: 1
   day_name: Monday
   day: 16
-  topic: 
+  topic: Intro to Linux (cont).
   reading: 
   assignment:
 

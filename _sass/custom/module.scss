@@ -90,6 +90,11 @@
 
         dd {
           margin: 0;
+          padding: $sp-2;
+
+          a {
+            padding: $sp-1;
+          }
         }
       }
     }
