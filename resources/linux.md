@@ -8,6 +8,60 @@ nav_order: 3
 
 # {{ page.description }}
 
+# SSH and remote access
+
+You'll be using SSH to log in to lily/iris to do your work in this class.
+SSH (Secure SHell) is a way to open a shell/terminal on a remote computer.
+This allows you to interact with the remote computer and run programs, edit
+files, write code, etc. SSH is a _secure_ shell because it uses an encrypted
+channel for communication between your local computer and the remote computer.
+
+The program `ssh` is used to connect to a remote machine. Use `ssh username@host` to
+connect to the computer named `host` (e.g., `lily.rhodes.edu`) with the given
+username (e.g., `langm`). For example, my account on `lily` is named `langm`. To
+connect, I run `ssh langm@lily.rhodes.edu`.
+
+## Transferring files with SCP
+
+If you want to transfer files back and forth between a remote computer, you can
+use the program SCP (Secure CoPy). This is a SSH version of the `cp` command.
+
+Recall that using `cp` copies a _source_ file/directory to a _dest_
+file/directory:
+
+```
+$ cp source dest
+```
+
+`scp` is similar, except it allows you to specify a different
+host machine before the source or dest:
+
+```
+# copy remote to local
+$ scp user@host:/path/to/souce dest
+# copy local to remote
+$ scp source user@host:/path/to/dest
+```
+
+Practically, if I want to copy a file from my laptop to my home directory on
+`iris`, this would look like the following:
+
+```
+$ cp my_prog.c langm@iris.rhodes.edu:./my_prog.c
+```
+
+If I wanted to copy a directory name `notes/` from my home directory on `iris`
+to my local computer, it would look like this (note the `-r` flag for
+_recursive_ copy of a directory):
+
+```
+$ scp -r langm@iris.rhodes.edu:./notes ./notes
+```
+
+{: .Note }
+You can use a graphical program if you prefer. The [recommended
+software](/resources/software) page lists some.
+
 # `git` and GitHub
 
 Make sure that you [sign up](https://github.com/signup) for a GitHub account and
