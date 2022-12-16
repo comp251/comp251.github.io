@@ -58,7 +58,7 @@ _recursive_ copy of a directory):
 $ scp -r langm@iris.rhodes.edu:./notes ./notes
 ```
 
-{: .Note }
+{: .note }
 You can use a graphical program if you prefer. The [recommended
 software](/resources/software) page lists some.
 
