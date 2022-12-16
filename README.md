@@ -310,8 +310,8 @@ your program again.
 Now that we've finished editing, it's time to commit our changes and push our
 feature! 
 
-Use `git status` to see what has changed in the current branch. Use `git add
-<file>` to add a file to be staged for commit. 
+Use `git status` to see what has changed in the current branch. Use `git add <filename>`
+to add a file to be staged for commit. 
 
 ```
 $ git status
