@@ -33,15 +33,23 @@ just_the_docs:
   collections:
     homework: 
       name: Assignments
-        #nav_fold: true
+      nav_fold: true
     labs:
       name: Labs
-        #nav_fold: true
+      nav_fold: true
 
 mermaid:
   version: "9.1.3"
 
+kramdown:
+  parse_block_html: true
+
 heading_anchors: true
+
+nav_external_links:
+  - title: Code from Class
+    url: https://github.com/comp251/code-from-class
+
 
 aux_links:
   Marion Lang: https://ml8.github.io
