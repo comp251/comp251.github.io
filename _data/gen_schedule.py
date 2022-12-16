@@ -4,34 +4,12 @@ import datetime
 import argparse
 import re
 
-from dateutil import relativedelta
-
 
 def parse_date(s):
     try:
         return datetime.datetime.strptime(s, '%m-%d-%Y')
     except ValueError:
         raise argparse.ArgumentTypeError('Invalid date: {}'.format(s))
-
-
-def days_to_offsets(days_str):
-    offset_map = {
-        'S': relativedelta.SU,
-        'M': relativedelta.MO,
-        'T': relativedelta.TU,
-        'W': relativedelta.WE,
-        'R': relativedelta.TH,
-        'F': relativedelta.FR,
-        's': relativedelta.SA,
-    }
-    days_sorted = 'SMTWRFs'
-    offsets = []
-    for d in days_sorted:
-        if d in days_str:
-            print(offset_map[d])
-            offsets.append(lambda o:
-                           relativedelta.relativedelta(weekday=offset_map[d](o)))
-    return offsets
 
 
 def format_date(fmt_str, date):
