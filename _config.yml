@@ -1,5 +1,5 @@
 title: COMP251
-description: Rhodes College COMP251 Systems Programming 
+description: "COMP251: Systems Programming"
 theme: just-the-docs
 
 url: https://comp251-sp23-jtd.github.io
@@ -19,6 +19,9 @@ callouts:
   new:
     title: New
     color: green
+  announcement:
+    title: Announcement
+    color: blue
 
 collections:
   homework:
