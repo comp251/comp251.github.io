@@ -15,7 +15,7 @@ nav_order: 1
   * Schedule time: [calendly.com/langma](https://calendly.com/langma)
   * Office: Briggs 213
   * Office Hours: TBD
-* Course website: [ml8.github.com/comp251](https://ml8.github.io/comp251)
+* Course website: [comp251.systems](http://comp251.systems)
 * Course channel: `#comp251`
 
 ## Prerequisites

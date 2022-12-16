@@ -8,7 +8,7 @@ nav_order: 0
 
 * Instructor: Dr. Marion Lang
   * Email: [langm@rhodes.edu](mailto:langm@rhodes.edu)
-  * My Calendar: [Lang Rhodes Public](https://tinyr.us/lang-cal); book time
+  * [My calendar](https://tinyr.us/lang-cal); book time
     using [calendly.com/langma](https://calendly.com/lang-cal)
 * This website: [comp251.github.io](https://comp251.github.io)/[251.systems](http://251.systems)
 * [CS Program Slack](https://rhodes-cs.slack.com): `#comp251-sp23`
