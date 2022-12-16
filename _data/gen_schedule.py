@@ -19,6 +19,7 @@ def format_date(fmt_str, date):
     out = re.sub(r'<YEAR>', str(date.year), out)
     out = re.sub(r'<DAY_NAME>', date.strftime('%A'), out)
     out = re.sub(r'<MONTH_NAME>', date.strftime('%B'), out)
+    out = re.sub(r'<BR>', '\n', out)
     return out
 
 
@@ -60,10 +61,16 @@ def main():
                         help='end date of semester MM-DD-YYYY')
     parser.add_argument('-d', '--days', type=str, required=True,
                         help='string representing days of week (SMTWRFs) for class (e.g., MWF, TR, etc.).')
-    parser.add_argument('-t', '--template', type=str, required=True,
-                        help=('template for printing days '
-                              'placeholders: < MONTH > , '
-                              '< DAY > , < YEAR > , < MONTH_NAME > , < DAY_NAME >'))
+    parser.add_argument('-t', '--template', type=str,
+                        default=("- month_name: <MONTH_NAME><BR>"
+                                 "  month: <MONTH><BR>"
+                                 "  day_name: <DAY_NAME><BR>"
+                                 "  day: <DAY><BR>"
+                                 "  topic: <BR>"
+                                 "  reading:  <BR>"
+                                 "  assignment: <BR>"),
+                        help=("template for printing days placeholders: <MONTH>, "
+                              "<DAY>, <YEAR>, <MONTH_NAME>, <DAY_NAME>, <BR>"))
     args = parser.parse_args()
     generate(args)
 

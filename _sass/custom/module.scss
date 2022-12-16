@@ -44,7 +44,7 @@
     >dt {
       @extend %module-item;
       border-top: $border $border-color;
-      font-weight: bold;
+      font-weight: normal;
       text-align: right;
 
       +dd {
@@ -60,7 +60,7 @@
       }
 
       &::after {
-        content: "";
+        content: ":";
       }
     }
 

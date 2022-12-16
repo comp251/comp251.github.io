@@ -2,8 +2,7 @@
   date: 2022-12-18 00:00:00 +00
 
 - text: |
-    > Welcome to COMP251!
-    >
+    > This is
     > a multi-line
     >
     > announcement
@@ -11,10 +10,9 @@
     > * with
     > * a
     > * list
+    >   * Neat!
   date: 2022-12-18 00:00:00 +00
 
 - text: "I'm an old announcement"
-  date: 2022-12-18 00:00:00 +00
+  date: 2022-12-12 00:00:00 +00
 
-- text: template
-  date: expiration date

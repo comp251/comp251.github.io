@@ -14,26 +14,25 @@ nav_order: 0
   [251.systems](http://251.systems))
 * [CS Program Slack](https://rhodes-cs.slack.com): `#comp251-sp23`
 
-{% if site.data.announcements %}
-
-{% if site.data.announcements.first.date > site.time %}
-
+{% for ann in site.data.announcements %}
+{% if ann.date > site.time %}
 {: .announcement }
-{{ site.data.announcements.first.text }}
-
+{{ ann.text }}
 {% endif %}
-{% endif %}
-
+{% endfor %}
 
 ## Course Schedule
 
 <div class="module" markdown="1">
+
 {% for date in site.data.days %}
 
 {{ date.day_name }} {{ date.month }}/{{ date.day }}
-: {% if date.topic %} {{ date.topic }} {% else %} \- {% endif %}
-{% if date.reading %}: {{ date.reading }} {% endif %}
-{% if date.assignment %}: {{ date.assignment }} {% endif %}
+
+: {{ date.topic | default: "&nbsp;" }}
+  : {% if date.reading %}{{ date.reading }}{% endif %}
+  : {% if date.assignment %}{{ date.assignment }}{% endif %}
 
 {% endfor %}
+
 </div>

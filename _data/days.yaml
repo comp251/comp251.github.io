@@ -2,15 +2,15 @@
   month: 1
   day_name: Wednesday
   day: 11
-  topic:
-  reading: 
+  topic: 
+  reading:  
   assignment: 
 
 - month_name: January
   month: 1
   day_name: Friday
   day: 13
-  topic:
+  topic: 
   reading:
   assignment:
 
@@ -18,7 +18,7 @@
   month: 1
   day_name: Monday
   day: 16
-  topic:
+  topic: 
   reading: 
   assignment:
 
@@ -28,7 +28,7 @@
   day: 18
   topic:
   reading:
-  assignment:
+  assignment: 
 
 - month_name: January
   month: 1
