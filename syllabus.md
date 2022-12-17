@@ -73,9 +73,8 @@ of it; education is transactional.
 
 Percent Contribution | Description
 -|-
-10 | Participation 
 40 | Programming labs
-10 | Assignments
+20 | Assignments and exercises
 40 | Exams (weights TBD, but the syllabus will be updated)
 
 ## Course Format
