@@ -2,23 +2,23 @@
   month: 1
   day_name: Wednesday
   day: 11
-  topic: Welcome! What is systems? Course overview; syllabus
-  reading: "[Welcome survey](homework/welcome){: .btn-purple }"
-  assignment: 
+  topic: Welcome! What is systems? 🕵️ Course overview; syllabus
+  reading: "[Katas](homework/portfolio_intro){: .btn-blue .mr-2 }"
+  assignment: "[Welcome survey](homework/welcome){: .btn-purple }"
 
 - month_name: January
   month: 1
   day_name: Friday
   day: 13
-  topic: What is a computer? 🧐 Intro to Linux (part 1).
-  reading:
-  assignment: "[Lab 0](labs/lab0){: .btn-blue }"
+  topic: What is a computer? 🧐 Numeric representation (`0`)
+  reading: "[HW 1](homework/hw1){: .btn-purple .mr-2 }"
+  assignment: Read [DIS](https://diveintosystems.org/book/) Chapter 4
 
 - month_name: January
   month: 1
   day_name: Monday
   day: 16
-  topic: Intro to Linux (cont).
+  topic: Numeric representation (`1`)
   reading: 
   assignment:
 
@@ -26,7 +26,7 @@
   month: 1
   day_name: Wednesday
   day: 18
-  topic:
+  topic: Representation (`10`) wrap-up; intro to Linux 🐧
   reading:
   assignment: 
 
@@ -34,9 +34,9 @@
   month: 1
   day_name: Friday
   day: 20
-  topic: 
+  topic: "Intro to Linux (cont.); GitHub and git :octocat:"
   reading:
-  assignment:
+  assignment: "[Lab 0](labs/lab0){: .btn-blue }"
 
 - month_name: January
   month: 1
