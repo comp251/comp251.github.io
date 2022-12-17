@@ -2,7 +2,7 @@
   month: 1
   day_name: Wednesday
   day: 11
-  topic: Welcome! What is systems? 🕵️ Course overview; syllabus
+  topic: Welcome! What is systems? 🕵️ <br/>Course overview; syllabus
   reading: "[Katas](homework/portfolio_intro){: .btn-blue .mr-2 }"
   assignment: "[Welcome survey](homework/welcome){: .btn-purple }"
 
@@ -10,15 +10,15 @@
   month: 1
   day_name: Friday
   day: 13
-  topic: What is a computer? 🧐 Numeric representation (`0`)
+  topic: "Ontological questions: what's a computer? 🧐<br/> Numeric representation (`00`)"
   reading: "[HW 1](homework/hw1){: .btn-purple .mr-2 }"
-  assignment: Read [DIS](https://diveintosystems.org/book/) Chapter 4
+  assignment: "[DIS](resources/books): Chapter 4"
 
 - month_name: January
   month: 1
   day_name: Monday
   day: 16
-  topic: Numeric representation (`1`)
+  topic: Numeric representation (`01`)
   reading: 
   assignment:
 
@@ -26,7 +26,7 @@
   month: 1
   day_name: Wednesday
   day: 18
-  topic: Representation (`10`) wrap-up; intro to Linux 🐧
+  topic: Representation (`10`) wrap-up <br/>Intro to Linux 🐧
   reading:
   assignment: 
 
@@ -34,7 +34,7 @@
   month: 1
   day_name: Friday
   day: 20
-  topic: 'Intro to Linux (cont.); GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
+  topic: 'Linux wrap-up <br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
   reading:
   assignment: "[Lab 0](labs/lab0){: .btn-blue }"
 
