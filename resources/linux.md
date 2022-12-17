@@ -120,8 +120,8 @@ ssh keys when using ssh. __We will use ssh.__
 You will probably hate using Vim at first.
 
 Using a command-line text editor is a vital process skill and Vim is both
-ubiquitous and well-supported, with a rich collection of plugins that can make
-your life easier.
+ubiquitous and well-supported, with a rich collection of plugins that [can make
+your life easier](https://youtu.be/9n1dtmzqnCU).
 
 There are several tutorials and cheet sheets online. One is even built into Vim
 itself!
