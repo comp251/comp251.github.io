@@ -82,7 +82,7 @@
   month: 2
   day_name: Friday
   day: 3
-  topic: Processes (cont)
+  topic: Processes (cont); `fork` and `exec`
   reading:
   assignment:
 
