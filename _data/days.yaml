@@ -59,7 +59,7 @@
   day_name: Friday
   day: 27
   topic: "C: arrays and strings"
-  reading: 
+  reading: "DIS: Chapter 2"
   assignment: 
 
 - month_name: January
@@ -67,22 +67,22 @@
   day_name: Monday
   day: 30
   topic: "C: strings, `string.h`, `strtok`"
-  reading:
+  reading: "DIS: Chapter 13.2" 
   assignment:
 
 - month_name: February
   month: 2
   day_name: Wednesday
   day: 1
-  topic:
-  reading:
-  assignment:
+  topic: "C memory; stack vs. heap; processes"
+  reading: 
+  assignment: "[Lab 1](labs/lab1){: .btn-blue .mr-2}"
 
 - month_name: February
   month: 2
   day_name: Friday
   day: 3
-  topic:
+  topic: Processes (cont)
   reading:
   assignment:
 
