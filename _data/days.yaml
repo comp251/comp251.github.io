@@ -66,7 +66,7 @@
   month: 1
   day_name: Monday
   day: 30
-  topic:
+  topic: "C: strings, `string.h`, `strtok`"
   reading:
   assignment:
 
