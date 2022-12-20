@@ -344,7 +344,7 @@ Path:   /home/langm/bin
   the memory for a string looks like after it has been parsed with `strtok`
   (i.e., `strtok` has been called enough times to fully parse the string):
 
-  ![strtok example](/doc/strtok.png)
+  ![strtok example](doc/strtok.png)
 
 * I recommend using an array of string pointers to keep track of the paths.
   The type an array of string pointers is `char *var_name[array_size]`.
@@ -630,7 +630,7 @@ variant to pass argv and the environment to the new process.__
   the array to 0/`NULL` and only populate the values that are real. To clear the
   array, use `memset` (`man 3 memset`).
 
-  ![Use memset to clear the array](/doc/memset.png)
+  ![Use memset to clear the array](doc/memset.png)
 
 * Use the test programs to validate that your shell properly passes command line
   arguments _and_ properly sets the environment. `argument_test.c` 
