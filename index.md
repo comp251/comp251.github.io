@@ -10,7 +10,7 @@ nav_order: 0
   * Email: [langm@rhodes.edu](mailto:langm@rhodes.edu)
   * [My calendar](https://tinyr.us/lang-cal); book time
     using [calendly.com/langma](https://calendly.com/lang-cal)
-* This website: [comp251.github.io](https://comp251.github.io) or [251.systems](http://251.systems)
+* This website: [251.systems](http://251.systems) or [comp251.github.io](https://comp251.github.io)
 * [CS Program Slack](https://rhodes-cs.slack.com): `#comp251`
 
 {% for ann in site.data.announcements %}
@@ -29,8 +29,8 @@ nav_order: 0
 {{ date.day_name }} {{ date.month }}/{{ date.day }}
 
 : {{ date.topic | default: "&nbsp;" }}
-  : {% if date.reading %}{{ date.reading }}{% endif %}
   : {% if date.assignment %}{{ date.assignment }}{% endif %}
+  : {% if date.reading %}{{ date.reading }}{% endif %}
 
 {% endfor %}
 
