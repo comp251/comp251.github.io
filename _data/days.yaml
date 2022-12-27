@@ -18,7 +18,7 @@
   month: 1
   day_name: Monday
   day: 16
-  topic: Numeric representation (`01`)
+  topic: __MLK Jr Day/No Class__
   reading: 
   assignment:
 
@@ -26,7 +26,7 @@
   month: 1
   day_name: Wednesday
   day: 18
-  topic: Representation (`10`) wrap-up <br/>Intro to Linux 🐧
+  topic: Numeric representation (`01`)
   reading:
   assignment: 
 
@@ -34,23 +34,23 @@
   month: 1
   day_name: Friday
   day: 20
-  topic: 'Linux wrap-up <br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
-  reading: DIS Chapter 0+1
-  assignment: "[Lab 0](labs/lab0){: .btn-blue .mr-2}"
+  topic: Representation (`10`) wrap-up <br/>Intro to Linux 🐧
+  reading:
+  assignment:
 
 - month_name: January
   month: 1
   day_name: Monday
   day: 23
-  topic: Introduction to C 🦾
-  reading: 
-  assignment: 
+  topic: 'Linux wrap-up <br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
+  reading: DIS Chapter 0+1 
+  assignment: "[Lab 0](labs/lab0){: .btn-blue .mr-2}" 
 
 - month_name: January
   month: 1
   day_name: Wednesday
   day: 25
-  topic: "C: syntax and types"
+  topic: Introduction to C 🦾
   reading: 
   assignment:
 
@@ -58,39 +58,39 @@
   month: 1
   day_name: Friday
   day: 27
-  topic: "C: arrays and strings"
-  reading: "DIS: Chapter 2"
+  topic: "C: syntax and types"
+  reading:
   assignment: 
 
 - month_name: January
   month: 1
   day_name: Monday
   day: 30
-  topic: "C: strings, `string.h`, `strtok`"
-  reading: "DIS: Chapter 13.2" 
+  topic: "C: arrays and strings"
+  reading: "DIS: Chapter 2"
   assignment:
 
 - month_name: February
   month: 2
   day_name: Wednesday
   day: 1
-  topic: "C memory; stack vs. heap; processes"
-  reading: 
-  assignment: "[Lab 1](labs/lab1){: .btn-blue .mr-2}"
+  topic: "C: strings, `string.h`, `strtok`"
+  reading: "DIS: Chapter 13.2"  
+  assignment:
 
 - month_name: February
   month: 2
   day_name: Friday
   day: 3
-  topic: Processes (cont); `fork` and `exec`
+  topic: "C memory; stack vs. heap; processes" 
   reading:
-  assignment:
+  assignment: "[Lab 1](labs/lab1){: .btn-blue .mr-2}"
 
 - month_name: February
   month: 2
   day_name: Monday
   day: 6
-  topic:
+  topic: Processes (cont); `fork` and `exec`
   reading:
   assignment:
 
@@ -210,7 +210,7 @@
   month: 3
   day_name: Monday
   day: 13
-  topic:
+  topic: __Spring Break/No Class__
   reading:
   assignment:
 
@@ -218,7 +218,7 @@
   month: 3
   day_name: Wednesday
   day: 15
-  topic:
+  topic: __Spring Break/No Class__
   reading:
   assignment:
 
@@ -226,7 +226,7 @@
   month: 3
   day_name: Friday
   day: 17
-  topic:
+  topic: __Spring Break/No Class__
   reading:
   assignment:
 
@@ -370,7 +370,7 @@
   month: 4
   day_name: Friday
   day: 28
-  topic:
+  topic: __Rhodes Symposium__
   reading:
   assignment:
 
