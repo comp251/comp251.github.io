@@ -1,17 +1,32 @@
 ---
 layout: default
-title: Tutoring
+title: Getting Help 
 parent: Course Resources
-description: Tutoring and Course Support
+description: Course Support
 nav_order: 6
 ---
 
 # {{ page.description }}
 
 {: .important }
-Your primary resource for help in this course can always be office hours. I am
+Your primary resource for help in this course should always be office hours. I am
 excited to be at a school like Rhodes, where I have the opportunity to work 1:1
 with you. In my experience, there is no substitute for office hours!
+
+I have office hours MWF 2-4:30. In the past, I have found that teaching COMP251
+creates a high demand for office hours. In order to prevent students from having
+to wait indefinitely when there is a queue of students wanting help, I take
+appointments for office hours.
+
+So, you have __two options__ for getting help during office hours:
+
+* Come by my office and wait for me to be available (first-come, first-served).
+* Make an appointment at [calendly.com/langma](https://calendly.com/langma).
+
+You can always see my schedule on the eInk display/microcontroller outside my
+office.
+
+## Tutoring
 
 This course has tutoring support. Your tutors will be available in the systems
 lab (on the second floor, on the opposite end of the building from the CS

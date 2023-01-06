@@ -14,7 +14,7 @@ nav_order: 1
   * Zoom ID: [langma](https://rhodes.zoom.us/my/langma)
   * Schedule time: [calendly.com/langma](https://calendly.com/langma)
   * Office: Briggs 213
-  * Office Hours: TBD
+  * Office Hours: MWF 2-4:30
 * Course website: [comp251.systems](http://comp251.systems)
 * Course channel: `#comp251`
 
