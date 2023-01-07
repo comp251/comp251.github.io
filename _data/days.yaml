@@ -11,16 +11,16 @@
   day_name: Friday
   day: 13
   topic: "Ontological questions: what's a computer? 🧐"
-  reading:
-  assignment:
+  reading: "[DIS](resources/books): Chapter 4" 
+  assignment: "[HW 1](homework/hw1){: .btn-purple .mr-2 }"
 
 - month_name: January
   month: 1
   day_name: Monday
   day: 16
   topic: __MLK Jr Day/No Class__
-  reading: "[DIS](resources/books): Chapter 4" 
-  assignment: "[HW 1](homework/hw1){: .btn-purple .mr-2 }"
+  reading: 
+  assignment:
 
 - month_name: January
   month: 1
