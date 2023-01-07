@@ -10,23 +10,23 @@
   month: 1
   day_name: Friday
   day: 13
-  topic: "Ontological questions: what's a computer? 🧐<br/> Numeric representation (`00`)"
-  reading: "[DIS](resources/books): Chapter 4"
-  assignment: "[HW 1](homework/hw1){: .btn-purple .mr-2 }"
+  topic: "Ontological questions: what's a computer? 🧐"
+  reading:
+  assignment:
 
 - month_name: January
   month: 1
   day_name: Monday
   day: 16
   topic: __MLK Jr Day/No Class__
-  reading: 
-  assignment:
+  reading: "[DIS](resources/books): Chapter 4" 
+  assignment: "[HW 1](homework/hw1){: .btn-purple .mr-2 }"
 
 - month_name: January
   month: 1
   day_name: Wednesday
   day: 18
-  topic: Numeric representation (`01`)
+  topic: Numeric representation (`00`)
   reading:
   assignment: 
 
@@ -34,7 +34,7 @@
   month: 1
   day_name: Friday
   day: 20
-  topic: Representation (`10`) wrap-up <br/>Intro to Linux 🐧
+  topic: Representation (`01`) wrap-up <br/>
   reading:
   assignment:
 
@@ -42,7 +42,7 @@
   month: 1
   day_name: Monday
   day: 23
-  topic: 'Linux wrap-up <br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
+  topic: Intro to Linux 🐧
   reading: DIS Chapter 0+1 
   assignment: "[Lab 0](labs/lab0){: .btn-blue .mr-2}" 
 
@@ -50,7 +50,7 @@
   month: 1
   day_name: Wednesday
   day: 25
-  topic: Introduction to C 🦾
+  topic: 'Linux wrap-up <br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
   reading: 
   assignment:
 
@@ -58,7 +58,7 @@
   month: 1
   day_name: Friday
   day: 27
-  topic: "C: syntax and types"
+  topic: Introduction to C 🦾
   reading:
   assignment: 
 
@@ -66,31 +66,31 @@
   month: 1
   day_name: Monday
   day: 30
-  topic: "C: arrays and strings"
-  reading: "DIS: Chapter 2"
+  topic: "C: syntax and types"
+  reading:
   assignment:
 
 - month_name: February
   month: 2
   day_name: Wednesday
   day: 1
-  topic: "C: strings, `string.h`, `strtok`"
-  reading: "DIS: Chapter 13.2"  
+  topic: "C: arrays and strings"
+  reading: "DIS: Chapter 2"
   assignment:
 
 - month_name: February
   month: 2
   day_name: Friday
   day: 3
-  topic: "C memory; stack vs. heap; processes" 
-  reading:
+  topic: "C: strings, `string.h`, `strtok`"
+  reading: "DIS: Chapter 13.2"  
   assignment: "[Lab 1](labs/lab1){: .btn-blue .mr-2}"
 
 - month_name: February
   month: 2
   day_name: Monday
   day: 6
-  topic: Processes (cont); `fork` and `exec`
+  topic: "C memory; stack vs. heap; processes" 
   reading:
   assignment:
 
@@ -98,7 +98,7 @@
   month: 2
   day_name: Wednesday
   day: 8
-  topic:
+  topic: Processes (cont); `fork` and `exec`
   reading:
   assignment:
 

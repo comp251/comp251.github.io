@@ -7,8 +7,8 @@ nav_exclude: true
 
 # Programming Kata 2
 
-Change your working directory to your portfolio and create a new branch
-for this assignment.
+Change your working directory to your portfolio and __create a new branch
+for this assignment__.
 
 ```
 $ cd <your-portfolio-directory>
@@ -26,55 +26,42 @@ $ cd exercise02
 Now create your C file and start coding!
 
 ```
-$ vim 7seg.c
+$ vim cipher.c
 ```
 
 # Assignment
 
-Write a program that repeatedly reads integers from standard input and displays
-them as digits in a 7 segment display (pretend that the following is not
-double-spaced).
+Write a program that accepts a 26-character string that represents a
+[substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher).
+
+For example, if the input is `qwertyuiopasdfghjklzxcvbnm`, then the letter `a`
+will be replaced by `q`, `b` with `w`, `c` with `e`, etc.
+
+Your program should then enter a loop to encipher/decipher text.
 
 ```
-$ gcc 7seg.c -o 7seg
-$ ./7seg
-Enter a number: 1234567890
-     _   _       _   _   _   _   _   _
-  |  _|  _| |_| |_  |_    | |_| |_| | |
-  | |_   _|   |  _| |_|   | |_|   | |_|
-
-Enter a number: 222222
- _   _   _   _   _   _
- _|  _|  _|  _|  _|  _|
-|_  |_  |_  |_  |_  |_
-
-Enter a number: 781981
- _   _       _   _
-  | |_|   | |_| |_|   |
-  | |_|   |   | |_|   |
-
-Enter a number: ^C
+$ gcc cipher.c -o cipher
+$ ./cipher
+Enter substitution pad: qwertyuiopasdfghjklzxcvbnm
+hello world! this is plaintext -- let's see it in ciphertext!
+itssg vgksr! ziol ol hsqofztbz -- stz'l ltt oz of eohitkztbz!
+this is another test. The encipher/decipher does not need to USE CAPITAL LETTERS
+or punctuation...they can be ignored.
+ziol ol qfgzitk ztlz. Tit tfeohitk/rteohitk rgtl fgz fttr zg USE CAPITAL LETTERS
+gk hxfezxqzogf...zitn eqf wt oufgktr.
+^C
 ```
 
 ## Tips
 
-* Declaring a multidimensional array of 3-character long (4, with null
-  terminator) strings representing the digits is an easy approach to this
-  problem.
-
-  For example, the following declares a 2-d array where each element in a
-  string:
-
-  ```
-  char dims[2][4][5] = { { "abcd", "efgh", "ijkl", "mnop" },
-                         { "qrst", "uvwx", "yz12", "3456" } };
-  ```
-
-  This results in a 2-D array with 2 rows, 4 columns, and each element is 5
-  characters (so it can include a 4 char string with a null-terminator).
-
-  | `abcd` | `efgh` | `ijkl` | `mnop` |
-  | `qrst` | `uvwx` | `yz12` | `3456` |
+* `char` is an integer type, and characters are represented as numeric values
+  internally. A common encoding of basic characters used in English is
+  [ASCII](https://en.wikipedia.org/wiki/ASCII).
+* You can use this by performing arithmetic and comparison between characters in
+  strings and letters. (e.g., `str[i] >= 'a'` evaluates to true if the character
+  at position `i` is a letter "greater than" `a`).
+* You can also perform arithmetic with characters: `'d' - 2` evaulates to `b`,
+  for example. Likewise `'d' - 'a'` evaluates to 4.
 
 # Turning it in
 
@@ -90,7 +77,7 @@ $ cd ..
 Add a line to the `.gitignore` file to exclude your binary.
 
 ```
-$ echo exercise02/7seg >> .gitignore
+$ echo exercise02/cipher >> .gitignore
 ```
 
 Add the new directory (and file) to your staged commit and verify your files 

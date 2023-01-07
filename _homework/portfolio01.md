@@ -7,13 +7,25 @@ nav_exclude: true
 
 # Programming Kata 1
 
-Change your working directory to your portfolio and create a new branch
+If you have not done so yet already, clone your portfolio on lily. 
+
+```
+$ git clone <your-portfolio-url>
+```
+
+Change your working directory to inside the portfolio and create a new branch
 for this assignment.
 
 ```
 $ cd <your-portfolio-directory>
 $ git checkout -b <your-branch-name>
 ```
+
+{: .warning }
+You __must__ work within branches! Do not commit code to the `main` branch -- if
+you do this, you will be penalized points. We are trying to model best practices
+in this class and develop some process skills that you will use in __all__
+future classes.
 
 Now, create a subdirectory for this exercise and change your working directory
 to inside it.
@@ -26,42 +38,39 @@ $ cd exercise01
 Now create your C file and start coding!
 
 ```
-$ vim cipher.c
+$ vim read_and_reverse.c
 ```
 
 # Assignment
 
-Write a program that accepts a 26-character string that represents a
-[substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher).
-
-For example, if the input is `qwertyuiopasdfghjklzxcvbnm`, then the letter `a`
-will be replaced by `q`, `b` with `w`, `c` with `e`, etc.
-
-Your program should then enter a loop to encipher/decipher text.
+Write a program that repeatedly reads stings from standard input and then uses a
+function to reverse a string. You can have a termination condition and check it
+using `strcmp`, or you can just use CTRL-C to quit.
 
 ```
-$ gcc cipher.c -o cipher
-$ ./cipher
-Enter substitution pad: qwertyuiopasdfghjklzxcvbnm
-hello world! this is plaintext -- let's see it in ciphertext!
-itssg vgksr! ziol ol hsqofztbz -- stz'l ltt oz of eohitkztbz!
-this is another test. The encipher/decipher does not need to USE CAPITAL LETTERS
-or punctuation...they can be ignored.
-ziol ol qfgzitk ztlz. Tit tfeohitk/rteohitk rgtl fgz fttr zg USE CAPITAL LETTERS
-gk hxfezxqzogf...zitn eqf wt oufgktr.
-^C
+$ gcc read_and_reverse.c -o read_and_reverse
+$ ./read_and_reverse
+Enter a word (ctrl-C to quit): hello
+hello -> olleh
+Enter a word (ctrl-C to quit): world
+world -> dlrow
+Enter a word (ctrl-C to quit): racecar
+racecar -> racecar
+Enter a word (ctrl-C to quit): mom
+mom -> mom
+Enter a word (ctrl-C to quit): wow
+wow -> wow
+Enter a word (ctrl-C to quit): COMP251
+COMP251 -> 152PMOC
+Enter a word (ctrl-C to quit): ^C
+$
 ```
 
 ## Tips
 
-* `char` is an integer type, and characters are represented as numeric values
-  internally. A common encoding of basic characters used in English is
-  [ASCII](https://en.wikipedia.org/wiki/ASCII).
-* You can use this by performing arithmetic and comparison between characters in
-  strings and letters. (e.g., `str[i] >= 'a'` evaluates to true if the character
-  at position `i` is a letter "greater than" `a`).
-* You can also perform arithmetic with characters: `'d' - 2` evaulates to `b`,
-  for example. Likewise `'d' - 'a'` evaluates to 4.
+* Use `strlen` to determine the length of the word the user input (you will need
+  to `#include <string.h>`.
+* In a shell, type `$ man strlen` for info about the function.
 
 # Turning it in
 
@@ -77,14 +86,14 @@ $ cd ..
 Add a line to the `.gitignore` file to exclude your binary.
 
 ```
-$ echo exercise01/cipher >> .gitignore
+$ echo exercise01/read_and_reverse >> .gitignore
 ```
 
 Add the new directory (and file) to your staged commit and verify your files 
 are staged.
 
 ```
-$ git add exercise01
+$ git add exercise01   
 $ git status
 ```
 

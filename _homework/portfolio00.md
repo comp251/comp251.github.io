@@ -40,39 +40,56 @@ $ cd exercise00
 Now create your C file and start coding!
 
 ```
-$ vim read_and_reverse.c
+$ vim collatz.c
 ```
 
 # Assignment
 
-Write a program that repeatedly reads stings from standard input and then uses a
-function to reverse a string. You can have a termination condition and check it
-using `strcmp`, or you can just use CTRL-C to quit.
+Write a program that computes the total number of iterations for (user-inputted)
+numbers to complete their [Collatz
+sequences](https://en.wikipedia.org/wiki/Collatz_conjecture).
+
+{: .note }
+The Collatz sequence for a number is the sequence of numbers that are output
+when following the following algorithm for a given input `n` (`n` must be
+greater than 1):<br/><br/>"as long as `n` is not 1: if `n` is even, `n` becomes `n/2`;
+otherwise, `n` becomes `3n+1`."<br/><br/>For example, consider a starting value of
+10: 10 is even, so the next number is 5. 5 is odd, so the next number is 16
+(`3*5+1`). 16 is even, so the next number is 8 (then 4, then 2, then
+1).<br/><br/>The
+total length of this sequence (10, 5, 16, 8, 4, 2, 1) is 7.
+
+You can have a termination condition that validates that the number is greater
+than 0, or you can just use CTRL-C to quit.
 
 ```
-$ gcc read_and_reverse.c -o read_and_reverse
-$ ./read_and_reverse
-Enter a word (ctrl-C to quit): hello
-hello -> olleh
-Enter a word (ctrl-C to quit): world
-world -> dlrow
-Enter a word (ctrl-C to quit): racecar
-racecar -> racecar
-Enter a word (ctrl-C to quit): mom
-mom -> mom
-Enter a word (ctrl-C to quit): wow
-wow -> wow
-Enter a word (ctrl-C to quit): COMP251
-COMP251 -> 152PMOC
-Enter a word (ctrl-C to quit): ^C
+$ gcc collatz.c -o collatz
+$ ./collatz
+Enter a number: 12
+12 -> 10
+Enter a number: 19
+19 -> 21
+Enter a number: 2
+2 -> 2
+Enter a number: 6
+6 -> 9
+Enter a number: 7
+7 -> 17
+Enter a number: 26
+26 -> 11
+Enter a number: 27
+27 -> 112
+Enter a number: ^C
 $
-```
+``` 
 
 ## Tips
 
-* Use `strlen` to determine the length of the word the user input (you will need
-  to `#include <string.h>`.
-* In a shell, type `$ man strlen` for info about the function.
+* You should write a function to compute the number of iterations for a given
+  number.
+* Use `scanf` and `printf` to perform input and output.
+* You should add input validation; quitting when the number is not greater than
+  or equal to 1 is a fine behavior.
 
 # Turning it in
 
@@ -88,7 +105,7 @@ $ cd ..
 Add a line to the `.gitignore` file to exclude your binary.
 
 ```
-$ echo exercise00/read_and_reverse >> .gitignore
+$ echo exercise00/collatz >> .gitignore
 ```
 
 Add the new directory (and file) to your staged commit and verify your files 
@@ -96,6 +113,7 @@ are staged.
 
 ```
 $ git add exercise00   
+$ git add exercise00/collatz.c
 $ git status
 ```
 
