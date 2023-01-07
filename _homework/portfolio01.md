@@ -68,6 +68,8 @@ $
 
 ## Tips
 
+* You can assume that the string that the user enters is less than 50
+  characters.
 * Use `strlen` to determine the length of the word the user input (you will need
   to `#include <string.h>`.
 * In a shell, type `$ man strlen` for info about the function.

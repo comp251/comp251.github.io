@@ -54,6 +54,8 @@ gk hxfezxqzogf...zitn eqf wt oufgktr.
 
 ## Tips
 
+* You can assume that the text that the user enters is less than 1024
+  characters.
 * `char` is an integer type, and characters are represented as numeric values
   internally. A common encoding of basic characters used in English is
   [ASCII](https://en.wikipedia.org/wiki/ASCII).

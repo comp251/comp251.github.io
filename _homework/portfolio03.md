@@ -76,6 +76,12 @@ Enter a number: ^C
   | `abcd` | `efgh` | `ijkl` | `mnop` |
   | `qrst` | `uvwx` | `yz12` | `3456` |
 
+* Note that `int` type will be less than 10 digits; if you use an array to store
+  the digits of the number that was entered, you can assume that 10 digits is
+  enough.
+
+
+
 # Turning it in
 
 When you are complete, commit your code and create a pull request with your
