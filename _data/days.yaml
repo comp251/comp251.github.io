@@ -43,7 +43,7 @@
   day_name: Monday
   day: 23
   topic: Intro to Linux 🐧
-  reading: DIS Chapter 0+1 
+  reading: "DIS: Chapters 0+1"
   assignment: "[Lab 0](labs/lab0){: .btn-blue .mr-2}" 
 
 - month_name: January
