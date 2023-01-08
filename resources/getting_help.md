@@ -79,5 +79,5 @@ we spend on tutoring.
 
 Tutors for 251 have gone through a bias training. If you feel as though you have
 experienced bias from a tutor, please report the instance to me, either directly
-or through my [feedback form](https://forms.gle/74oBX4KXSBuonmvh8).
+or through my [feedback form](https://tinyr.us/lang-feedback).
 
