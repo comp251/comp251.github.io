@@ -55,19 +55,19 @@ At the conclusion of this course you should be able to:
 
 ## Expectations
 
-I know that COVID has recalibrated our expectations for how classes work. Even
-though COVID is not "over" by any stretch of the imagination, we will attempt to
-run this class as if it were pre-COVID: attendance is necessary. You are
-expected to attend class and particpate in the class. I will not record
-lectures, nor will I make the course available asychronously. If you have been
-exposed to COVID or test positive for COVID, you __must__ follow the College
-procedures for isolation. Do not come to class. Let me know __before__ you miss
-class, and we can work something out.
-
 You are expected to spend approximately 12 hours per week on this course (both
 per Department of Education guidelines as well as my expectations of the work
 required). This class __will__ involve a lot of work, but you will get a lot out
 of it; education is transactional.
+
+I know that COVID has recalibrated our expectations for how classes work. Even
+though COVID is not "over" by any stretch of the imagination, we will attempt to
+run this class as if it were pre-COVID: attendance is necessary. You are
+expected to attend class and participate in the class. I will not record
+lectures, nor will I make the course available asynchronously. If you have been
+exposed to COVID or test positive for COVID, you __must__ isolate--regardless of
+college policies. Do not come to class. Let me know __before__ you miss class,
+and we can work something out.
 
 ## Grading
 
@@ -81,7 +81,7 @@ Percent Contribution | Description
 
 * This class is a programming-heavy course. Over the course of the semester, you
   will write several large programs or program components in a systems
-  programming langauge (C). There will be 6-10 of these large assignments
+  programming language (C). There will be 6-10 of these large assignments
   (__labs__).
 * At the same time, you will have smaller, regular work assigned. These will
   include small programming __exercises__ in addition to writing assignments and
@@ -186,14 +186,28 @@ ideas. We recognize that our views and convictions will be challenged, and we
 expect this challenge to take place in a climate of openmindedness and mutual
 respect.
 
+## Classroom etiquette 
+
+The classroom environment will be informal. You should feel free to speak up
+without raising your hand, to crack jokes, etc. Being informal __does not__ mean
+being unprofessional, though. I have some very basic rules. They really boil
+down to __don't be rude.__
+
+* If you are going to spend class on your phone or your laptop, just don't come.
+* No earbuds on during class (exams are ok).
+* Don't take pictures of the board or projector until you clearly get
+  acknowledgement from me (a nod is fine).
+* Don't talk over me or your peers.
+* Don't talk to your peers for an extended period while others are talking.
+
 ## Sexual Misconduct Disclosure
 
 I will do my best to help any student who comes to me with non-course-related
 concerns. Please keep in mind, however, that all faculty are required by policy
 to share knowledge of sexual assault, dating/domestic violence, sexual
 exploitation, stalking, sexual harassment and sex/gender discrimination with the
-Title IX Coordinator, Tiffany Cox. For more information about Rhodes’ sexual
-misconduct policy or to make a report please see [www.rhodes.edu/titleix]().
+Title IX Coordinator. For more information about Rhodes’ sexual misconduct
+policy or to make a report please see [www.rhodes.edu/titleix]().
 
 _I reserve the right to alter this syllabus._
 
