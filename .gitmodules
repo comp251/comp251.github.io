@@ -1,0 +1,6 @@
+[submodule "_labs/lab0"]
+	path = _labs/lab0
+	url = https://github.com/comp251/comp251-lab0.git
+[submodule "_labs/lab1"]
+	path = _labs/lab1
+	url = https://github.com/comp251/comp251-lab1.git

@@ -9,8 +9,8 @@
 
 ## About
 
-* Uses `git subtree` for lab assignments, see `subtree_bootstrap.sh` for initial
-  adding of subtrees and `subtree_update.sh` to update clones.
+* Uses `git submodule` for lab assignments, see `submodule_bootstrap.sh` for
+  initial adding of subtrees and `submodule_update.sh` to update local clones.
 * `run_local.sh` will run Jekyll locally. Follow installation instructions for
   [Jekyll](https://jekyllrb.com/) as a prerequisite.
 * Syllabus is pulled from [\_data/days.yaml](_data/days.yaml).
