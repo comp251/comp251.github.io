@@ -21,7 +21,7 @@ appointments for office hours.
 So, you have __two options__ for getting help during office hours:
 
 * Come by my office and wait for me to be available (first-come, first-served).
-* Make an appointment at [calendly.com/langma](https://calendly.com/langma).
+* Make an appointment at [calendly.com/lang-cal](https://calendly.com/lang-cal).
 
 You can always see my schedule on the eInk display/microcontroller outside my
 office.
