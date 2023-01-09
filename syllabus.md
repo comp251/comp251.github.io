@@ -200,6 +200,17 @@ down to __don't be rude.__
 * Don't talk over me or your peers.
 * Don't talk to your peers for an extended period while others are talking.
 
+## Accommodations
+
+Per the student services office, please inform me as soon as possible if you
+require course accommodations. I am happy to support you in any way that I can
+in my course.
+
+If your accommodations specify extra time on exams, please send me an
+email/Slack message/etc. _before_ a scheduled exam. This is to both remind me of
+anything that I need to do to accommodate you and to start a conversation
+between us about the manner in which you would like to take the exam.
+
 ## Sexual Misconduct Disclosure
 
 I will do my best to help any student who comes to me with non-course-related
