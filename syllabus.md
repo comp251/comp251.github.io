@@ -15,7 +15,7 @@ nav_order: 1
   * Schedule time: [calendly.com/lang-cal](https://calendly.com/lang-cal)
   * Office: Briggs 213
   * Office Hours: MWF 2-4:30
-* Course website: [comp251.systems](http://comp251.systems)
+* Course website: [251.systems](http://251.systems)
 * Course channel: `#comp251`
 
 ## Prerequisites
