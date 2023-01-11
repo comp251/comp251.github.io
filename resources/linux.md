@@ -130,8 +130,8 @@ ssh keys when using ssh. __We will use ssh.__
 You will probably hate using Vim at first.
 
 Using a command-line text editor is a vital process skill and Vim is both
-ubiquitous and well-supported, with a rich collection of plugins that [can make
-your life easier](https://youtu.be/9n1dtmzqnCU).
+ubiquitous and well-supported, with a rich collection of plugins that can make
+your life easier. 
 
 There are several tutorials and cheet sheets online. One is even built into Vim
 itself!
@@ -142,6 +142,8 @@ itself!
 * [Vim Adventures](https://vim-adventures.com) is a cute game that helps you
   learn the basic movement commands (these will come in useful!). The full game
   is not free, but the free preview has good coverage of basic movement.
+
+This [parody](https://youtu.be/9n1dtmzqnCU) of Vim users is spot-on.
 
 # `tmux`
 
