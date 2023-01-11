@@ -7,6 +7,10 @@ nav_order: 3
 ---
 
 # {{ page.description }}
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 # SSH and remote access
 
@@ -20,6 +24,12 @@ The program `ssh` is used to connect to a remote machine. Use `ssh username@host
 connect to the computer named `host` (e.g., `lily.rhodes.edu`) with the given
 username (e.g., `langm`). For example, my account on `lily` is named `langm`. To
 connect, I run `ssh langm@lily.rhodes.edu`.
+
+## Access from off-campus
+
+Within the first week, you should have access to the Rhodes VPN. Follow the
+instructions on the [software resources page](/resources/software) to install the
+FortiClient software.
 
 ## Transferring files with SCP
 
