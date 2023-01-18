@@ -28,12 +28,22 @@ office.
 
 ## Tutoring
 
+{: .new }
+Tutoring is Sunday-Thursday night 5-8pm.
+
 This course has tutoring support. Your tutors will be available in the systems
 lab (on the second floor, on the opposite end of the building from the CS
 lounge). The room code is `1337#`.
 
-Tutoring hours are TBA, but will be ~10 hours/week. Check back here for the
-tutoring schedule.
+
+Computer Systems TAs for Spring'23:
+
+Tim Daso | dastp-23
+Donald Wilson | wilds-23
+Gibby Fakes | fakmg-23
+Kyla Bursey | burkr-24
+Luis Gallegos | gallf-23
+Kairos Wong | wonzh-24
 
 ## How to use tutoring
 

@@ -1,8 +1,11 @@
-- text: Welcome to COMP251!
-  date: 2023-01-14 00:00:00 +00
+- text: "[Tutoring](resources/getting_help) starts next week!"
+  date: 2023-01-26 00:00:00 +00
 
 - text: Please fill out the [course survey](homework/welcome)!
   date: 2023-01-17 00:00:00 +00
+
+- text: Welcome to COMP251!
+  date: 2023-01-14 00:00:00 +00
 
 - text: |
     > This is
