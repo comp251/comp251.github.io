@@ -33,7 +33,7 @@ Tutoring is Sunday-Thursday night 5-8pm.
 
 This course has tutoring support. Your tutors will be available in the systems
 lab (on the second floor, on the opposite end of the building from the CS
-lounge). The room code is `1337#`.
+lounge). The room code is `0337#`.
 
 
 Computer Systems TAs for Spring'23:
