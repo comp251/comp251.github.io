@@ -1,46 +1,23 @@
 ---
 layout: default
-title: Linux shell and tools
+title: Linux Shell
 parent: Course Resources
-description: Bash, Vim, Tmux, and Linux Tips
-nav_order: 3
+description: Linux Shell
+nav_order: 4
 ---
 
 # {{ page.description }}
-{: .no_toc }
+{: no_toc }
+
+{: .note }
+This page summarizes some basic command shell usage. It is not a substitute
+for [The Linux Command Line](/resources/books) book, though! Skimming chapters 1-4 in that
+book will give a good overview of using the command line.
 
 1. TOC
 {:toc}
 
-# SSH and remote access
-
-You'll be using SSH to log in to lily/iris to do your work in this class.
-SSH (Secure SHell) is a way to open a shell/terminal on a remote computer.
-This allows you to interact with the remote computer and run programs, edit
-files, write code, etc. SSH is a _secure_ shell because it uses an encrypted
-channel for communication between your local computer and the remote computer.
-
-The program `ssh` is used to connect to a remote machine. Use `ssh username@host` to
-connect to the computer named `host` (e.g., `lily.rhodes.edu`) with the given
-username (e.g., `langm`). For example, my account on `lily` is named `langm`. To
-connect, I run `ssh langm@lily.rhodes.edu`.
-
-## Access from off-campus
-
-Within the first week, you should have access to the Rhodes VPN. Follow the
-instructions on the [software resources page](/resources/software) to install the
-FortiClient software.
-
----
-
-# Shell cheat sheet and basic commands
-
-{: .note }
-This section summarizes some basic command shell usage. It is not a substitute
-for [The Linux Command Line](/resources/books) book, though! Skimming chapters 1-4 in that
-book will give a good overview of using the command line.
-
-## What is a shell?
+# What is a shell?
 
 A _shell_ or _command shell_ is a program that allows you to run other programs.
 The Windows/OSX GUI is a visual shell; we will be using a text-based shell. When
@@ -61,7 +38,7 @@ command is shown on the next line. Comments are prefixed with `#` and are asides
 to you, the reader.
 
 <div class="code-example" markdown="1">
-### Your first commands
+## Your first commands
 
 First, log in to lily by using SSH. You'll see a prompt that looks something
 like this:
@@ -86,7 +63,7 @@ $ exit
 ```
 
 
-## File organization
+# File organization
 
 The files on a computer are stored in _directories_ (aka folders). Directories
 can contain other directories (folders within folders) as well as files.
@@ -113,7 +90,7 @@ One thing that you will notice is that it is awkward to deal with files that hav
 <br><br>
 If you need to work with files with spaces or special characters, use `\` to "escape" the special character/space.
 
-## General tips
+# General tips
 
 * The shell provides both command and file completion. When you type the start
   of some command or file, use the tab key to have the shell attempt to complete
@@ -129,10 +106,13 @@ If you need to work with files with spaces or special characters, use `\` to "es
     foreground, and `bg` to resume the program in the background.
 
 
-## Command list
+# Command list
+
+The following is a sample of some useful shell commands to get you started. I
+highly recommend reading the [Linux Command Line book](/resources/books)!
 
 <div class="code-example" markdown="1">
-### Navigating directories
+## Navigating directories
 
 The `pwd` ("print working directory") command prints the name of the
 directory/folder that your shell is working within. This directory can be
@@ -152,8 +132,10 @@ $ cd ..         # .. is a special alias for the directory "above" the current
 $ cd -          # - is a special alias for the last directory
 ```
 
+---
+
 <div class="code-example" markdown="1">
-### Viewing directories
+## Viewing directories
 
 The `ls` command (read as "list") lists the files in a directory. By default, it
 lists files in the _current directory_ (see `pwd`). If you want to see files in
@@ -202,8 +184,10 @@ $ tree             # view current and sub-directories in a tree format
 22 directories, 4 files
 ```
 
+---
+
 <div class="code-example" markdown="1">
-### Making and removing directories
+## Making and removing directories
 
 `mkdir` creates a directory and `rmdir` deletes a directory.
 </div>
@@ -218,8 +202,10 @@ $ ls
 birthdays.txt  Desktop  Documents  Downloads  large_file.txt  Pictures
 ```
 
+---
+
 <div class="code-example" markdown="1">
-### Viewing files
+## Viewing files
 
 * `cat` outputs a file's contents. 
 * `less` can be used to view large files. 
@@ -234,7 +220,7 @@ elise 9/5
 marion 7/8
 zelda 5/1
 $ less large_file.txt           # use q to quit
-$ vim file_to_edit.txt          # read section on vim below!
+$ vim file_to_edit.txt          # read section on vim!
 $ cd Documents
 $ ls
 cat_stories     cowboy_names.txt     resume.tex
@@ -274,8 +260,10 @@ Owen
 Hogan
 ```
 
+---
+
 <div class="code-example" markdown="1">
-### Copying and moving files/directories
+## Copying and moving files/directories
 
 There are two main commands for moving and copying files and directories: `mv` (move) and `cp` (copy).
 
@@ -309,13 +297,14 @@ $ ls
 best-friends.xls                limewire.zip                    rats - nonverbal.xls
 cool_tunes                      potential-enemies.xls           small_horse_(not_too_small).jpg
 ```
+---
 
 <div class="code-example" markdown="1">
-### User/session management
+## User/session management
 
 You will probably only use two commands to manage your user: `passwd` and `exit`.
 
-It is convenient to use tmux to have long-lived sessions, but not necessary for the course. See section on [tmux](#tmux) below.
+It is convenient to use tmux to have long-lived sessions, but not necessary for the course. See section on [tmux](/resources/vim#tmux).
 </div>
 ```shell-session
 $ passwd                       # change your password
@@ -325,15 +314,17 @@ New password:
 Retype new password: 
 passwd: password updated successfully
 $ exit                         # log out
-$ tmux ls                      # list tmux sessions (see below)
-$ tmux new -s 251              # new tmux session (see below)
+$ tmux ls                      # list tmux sessions (see tmux section)
+$ tmux new -s 251              # new tmux session (see tmux section)
 $ tmx 251                      # same as above -- tmx shortcut
-$ tmux attach-session -t 251   # attach to tmux session (see below)
+$ tmux attach-session -t 251   # attach to tmux session (see tmux section)
 $ tmx 251                      # same as above -- tmx shortcut
 ```
 
+---
+
 <div class="code-example" markdown="1">
-### Compiling and debugging code
+## Compiling and debugging code
 
 We will use the GNU C Compiler (`gcc`) for compiling code. 
 </div>
@@ -352,8 +343,10 @@ $ make                          # use make with default target
 $ make target_name              # use make with a named target
 ```
 
+---
+
 <div class="code-example" markdown="1">
-### Pipes and redirection
+## Pipes and redirection
 
 One useful feature of Linux systems is the ability to redirect a program's
 output to another program's input. This allows one to chain simple commands
@@ -408,8 +401,10 @@ $ cat /etc/passwd | cut -f 1 -d ':' | grep m$ | wc -l  # how many users end with
 1
 ```
 
+---
+
 <div class="code-example" markdown="1">
-### Getting help
+## Getting help
 
 Linux systems ship with a _manual_ that contains a page for each command on the
 system. When you want help with a command, look it up via its _man page_ (manual
@@ -464,190 +459,4 @@ wprintf (3)          - formatted wide-character output conversion
 XtAsprintf (3)       - memory management functions
 $ man 3 strcat        # look up the strcat function in the C libraries
 ```
-
----
-
-# `git` and GitHub
-
-Make sure that you [sign up](https://github.com/signup) for a GitHub account and
-activate your [benefits for
-students](https://education.github.com/discount_requests/pack_application).
-
-You'll be writing Markdown files for lab writeups. GitHub has provided a nice
-[cheat
-sheet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-for formatting a document using Markdown.
-
-## Setting up `git`
-
-When you log in to lily, you should configure git with your identity:
-
-```
-$ git config --global user.name "Marion Lang"
-$ git config --global user.email "langm@rhodes.edu"
-```
-
-{: .important}
-As of late 2021, GitHub disabled using your password for
-accessing repositories and instead recommends using tokens when using HTTPS or
-ssh keys when using ssh. __We will use ssh.__
-
-* To set this up, follow the general directions
-  [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-  and
-  [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
-
-* Speficially, for our environment:
-
-  1. Log into lily.
-  2. Use the email you used to sign up for GitHub in the following: 
-
-     ```
-     $ ssh-keygen -t ed25519 -C "your_email@example.com"
-     ```
-
-  3. When it prompts you for file name, just hit enter.
-  4. When it prompts for a passphrase, hit enter for none.
-  5. `$ exec ssh-agent bash`
-  6. `$ ssh-add ~/.ssh/id_ed25519`
-  7. `$ cat ~/.ssh/id_ed25519.pub`
-  8. Copy the output of the last command.
-  9. Go to
-     [github.com/settings/keys](https://github.com/settings/keys).
-  10. Click "New SSH key."
-  11. Give it a name (e.g., "lily").
-  12. Paste the output from the `cat` command into the "key" box.
-  13. Click "Add SSH key."
-
----
-
-# Vim
-
-{: .warning }
-You will probably hate using Vim at first.
-
-Using a command-line text editor is a vital process skill and Vim is both
-ubiquitous and well-supported, with a rich collection of plugins that can make
-your life easier. 
-
-There are several tutorials and cheet sheets online. One is even built into Vim
-itself!
-
-* Run `vimtutor` for an interactive tutorial inside of Vim.
-* [This](https://devhints.io/vim) is a decent basics cheat sheet.
-* [This](https://vim.rtorr.com/) is a more detailed cheat sheet.
-* [Vim Adventures](https://vim-adventures.com) is a cute game that helps you
-  learn the basic movement commands (these will come in useful!). The full game
-  is not free, but the free preview has good coverage of basic movement.
-
-This [parody](https://youtu.be/9n1dtmzqnCU) of Vim users is spot-on.
-
----
-
-# tmux
-
-ssh attempts to make connections persistent. However, like any other application
-running on the network, you will drop an ssh connection when you disconnect from
-the internet. This can be frustrating when you're in the middle of working!
-
-One way to prevent this frustration is to create a persistent terminal session
-on the remote machine--think of this like a set of windows that you can
-disconnect from and reconnect to.  tmux is a program that allows you to do
-this.
-
-I highly recommend that you invest a little time in learning how to use tmux to
-have multiple windows open in one ssh window __and to be able to quit and
-reconnect to an existing session__. Here’s a couple of tutorials:
-
-* [How to use
-  tmux on Linux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/)
-* [Getting Started with Tmux](https://linuxhandbook.com/tmux/)
-* [How to Use Tmux + Cheat
-  Sheet](https://www.hostinger.com/tutorials/tmux-beginners-guide-and-cheat-sheet/)
-
-Note that these tutorials may ask you install software. You can't install
-software on Lily--you don't have the proper permissions. But, you shouldn't need
-to; I have installed all the software necessary for success in this class.
-
----
-
-# Passwordless SSH
-
-You can set up SSH so that you don't need to enter your password each time. To
-do so, you'll need to generate a public/private key pair, and copy the public
-key to the remote computer.
-
-Do the following _on your local computer_:
-
-```
-$ ssh-keygen -t rsa -b 4096 -C "your_email@address.com"
-```
-
-Hit enter to accept the default file location. When it prompts you for a
-password, __just hit enter__--do not enter a password!
-
-Now, copy you newly-generated SSH id to the remote machine:
-
-```
-$ ssh-copy-id user@lily.rhodes.edu
-```
-
-Now you should be able to log in without using a password.
-
-## Passwordless ssh between lily/iris
-
-To SSH between lily and iris without using a password, follow the same step
-running `ssh-keygen` __while you are logged in to lily__. Then, simply do the
-following:
-
-```
-$ cat .ssh/id_rsa.pub > ~/.ssh/authorized_keys
-```
-
-Now you should be able to simply run `ssh iris` to connect to iris without a
-password.
-
----
-
-# Transferring files with SCP
-
-If you want to transfer files back and forth between a remote computer, you can
-use the program SCP (Secure CoPy). This is a SSH version of the `cp` command.
-
-Recall that using `cp` copies a _source_ file/directory to a _dest_
-file/directory:
-
-```
-$ cp source dest
-```
-
-`scp` is similar, except it allows you to specify a different
-host machine before the source or dest:
-
-```
-# copy remote to local
-$ scp user@host:/path/to/souce dest
-# copy local to remote
-$ scp source user@host:/path/to/dest
-```
-
-Practically, if I want to copy a file from my laptop to my home directory on
-`iris`, this would look like the following:
-
-```
-$ scp my_prog.c langm@iris.rhodes.edu:./my_prog.c
-```
-
-If I wanted to copy a directory name `notes/` from my home directory on `iris`
-to my local computer, it would look like this (note the `-r` flag for
-_recursive_ copy of a directory):
-
-```
-$ scp -r langm@iris.rhodes.edu:./notes ./notes
-```
-
-{: .note }
-You can use a graphical program if you prefer. The [recommended
-software](/resources/software) page lists some.
-
 

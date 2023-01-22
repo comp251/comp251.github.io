@@ -3,7 +3,7 @@ layout: default
 title: Getting Help 
 parent: Course Resources
 description: Course Support
-nav_order: 6
+nav_order: 9
 ---
 
 # {{ page.description }}

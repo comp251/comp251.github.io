@@ -3,7 +3,7 @@ layout: default
 title: Code Conventions 
 parent: Course Resources
 description: Code Style and Conventions
-nav_order: 5
+nav_order: 8
 ---
 
 # {{ page.description }}
