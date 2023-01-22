@@ -281,18 +281,18 @@ $ cp best-friends.xls potential-enemies.xls
 $ ls
 best-friends.xls                mr brightside.flac              potential-enemies.xls           small_horse_(not_too_small).jpg
 limewire.zip                    naruto_ska_cover.mp3            rats - nonverbal.xls
-$ mkdir cool_tunes
-$ mv naruto_ska_cover.mp3 cool_tunes/naruto_ska_cover.mp3
-$ mv mr\ brightside.flac cool_tunes/mr_brightside.flac
-$ ls
-best-friends.xls                limewire.zip                    rats - nonverbal.xls
-cool_tunes                      potential-enemies.xls           small_horse_(not_too_small).jpg
-$ ls cool_tunes
-mr_brightside.flac   naruto_ska_cover.mp3
-$ mv cool_tunes new_music
+$ mkdir new_music
+$ mv naruto_ska_cover.mp3 new_music/naruto_ska_cover.mp3
+$ mv mr\ brightside.flac new_music/mr_brightside.flac
 $ ls
 best-friends.xls                new_music                       rats - nonverbal.xls
 limewire.zip                    potential-enemies.xls           small_horse_(not_too_small).jpg
+$ ls new_music
+mr_brightside.flac   naruto_ska_cover.mp3
+$ mv new_music cool_tunes
+$ ls
+best-friends.xls                limewire.zip                    rats - nonverbal.xls
+cool_tunes                      potential-enemies.xls           small_horse_(not_too_small).jpg
 ```
 
 <div class="code-example" markdown="1">
