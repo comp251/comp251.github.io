@@ -469,7 +469,7 @@ Practically, if I want to copy a file from my laptop to my home directory on
 `iris`, this would look like the following:
 
 ```
-$ cp my_prog.c langm@iris.rhodes.edu:./my_prog.c
+$ scp my_prog.c langm@iris.rhodes.edu:./my_prog.c
 ```
 
 If I wanted to copy a directory name `notes/` from my home directory on `iris`
