@@ -61,7 +61,7 @@ command is shown on the next line. Comments are prefixed with `#` and are asides
 to you, the reader.
 
 <div class="code-example" markdown="1">
-### First commands
+### Your first commands
 
 First, log in to lily by using SSH. You'll see a prompt that looks something
 like this:
@@ -98,7 +98,7 @@ A directory is uniquely identified by its _path_ from the root.
 The root directory is named `/`. If it contains a directory named `home`, the path
 of `home` is `/home`. My home directory's path is `/home/langm`, and it may contain
 other directories (e.g., `/home/langm/Documents`,
-`/home/langm/Pictures/my_summer_vacation`, etc.).
+`/home/langm/Pictures/my_summer_vacation`, etc.). Here's a visual example.
 
 ![Filesystem Screenshot](/assets/filesystem_screenshot.png)
 
@@ -112,6 +112,21 @@ with the working directory's path.
 One thing that you will notice is that it is awkward to deal with files that have special characters or spaces, since the shell interprets a space as separating arguments!
 <br><br>
 If you need to work with files with spaces or special characters, use `\` to "escape" the special character/space.
+
+## General tips
+
+* The shell provides both command and file completion. When you type the start
+  of some command or file, use the tab key to have the shell attempt to complete
+  it. If there are multiple options, hit tab twice quickly to see them all.
+* There are some special signals that you can send to programs using the control
+  key: 
+
+  * `ctrl-c` will attempt to kill the currently-running program
+  * `ctrl-d` will send the end-of-file character to the currently-running
+    program
+  * `ctrl-z` will send the running program to the background and pause it. Use
+    `jobs` to list background programs, `fg` to resume the program in the
+    foreground, and `bg` to resume the program in the background.
 
 
 ## Command list
@@ -337,6 +352,119 @@ $ make                          # use make with default target
 $ make target_name              # use make with a named target
 ```
 
+<div class="code-example" markdown="1">
+### Pipes and redirection
+
+One useful feature of Linux systems is the ability to redirect a program's
+output to another program's input. This allows one to chain simple commands
+together to form a complex processing pipeline. The IO _pipe_ is used to send
+the output of one program to the input of another. The syntax for a pipe is
+`command1 | command2`; this sends the output of `command1` to the input of
+`command2`.
+
+Here are some simple tools that are part of all Linux systems. You've already
+seen the first few:
+
+* `cat` -- output a file or set of files
+* `head`/`tail` -- output the beginning or end of files
+* `grep` -- search through input for lines matching some pattern
+* `sort` -- sort input
+* `cut` -- extract fields from input
+* `wc` -- count lines from input
+
+This list isn't complete: __all commands__ that use standard input/output can be
+chained together in this way.
+</div>
+```
+$ cat cowboy_names.txt | grep ^B       # find all cowboy names that start with B
+Buck
+Beau
+Boone
+Billy
+Bart
+$ sort cowboy_names.txt | tail -n 1    # find the last name in alphabetical order
+Zeke
+$ ls /usr/bin | grep python            # find all python binaries in /usr/bin
+python
+python2
+python2.7
+python2.7-config
+python2-config
+python3
+python3.6
+python3.6-config
+python3.6m
+python3.6m-config
+python3.7
+python3.7m
+python3.8
+python3.8-config
+python3-config
+$ cat /etc/passwd | cut -f 1 -d ':'  | grep m$  # find all users whose name ends in m
+langm
+$ cat /etc/passwd | wc -l             # count users in the system
+35
+$ cat /etc/passwd | cut -f 1 -d ':' | grep m$ | wc -l  # how many users end with m?
+1
+```
+
+<div class="code-example" markdown="1">
+### Getting help
+
+Linux systems ship with a _manual_ that contains a page for each command on the
+system. When you want help with a command, look it up via its _man page_ (manual
+page).
+
+The manual is also divided into sections:
+
+section | topics
+---|---
+1 | User commands
+2 | OS System calls and functions
+3 | Library functions
+4 | Special files
+5 | File formats and conventions
+6 | Games
+7 | Misc
+8 | System administration commands
+
+To narrow down an ambiguous page to a specific section, use the section number
+(see below).
+
+It is always helpful to read the manual page for a C function when you use it.
+</div>
+```
+$ man ls              # get help with ls
+$ man cat             # get help with cat
+$ man printf          # get help with the program printf (section 1)
+$ man 3 printf        # get help with the C library function printf (section 3)
+$ man -f printf       # find printf pages in the manual
+printf (1)           - format and print data
+printf (3)           - formatted output conversion
+$ man -k printf       # find pages matching printf in the manual
+asprintf (3)         - print to allocated string
+dprintf (3)          - formatted output conversion
+fprintf (3)          - formatted output conversion
+fwprintf (3)         - formatted wide-character output conversion
+printf (1)           - format and print data
+printf (3)           - formatted output conversion
+snprintf (3)         - formatted output conversion
+sprintf (3)          - formatted output conversion
+swprintf (3)         - formatted wide-character output conversion
+vasprintf (3)        - print to allocated string
+vdprintf (3)         - formatted output conversion
+vfprintf (3)         - formatted output conversion
+vfwprintf (3)        - formatted wide-character output conversion
+vprintf (3)          - formatted output conversion
+vsnprintf (3)        - formatted output conversion
+vsprintf (3)         - formatted output conversion
+vswprintf (3)        - formatted wide-character output conversion
+vwprintf (3)         - formatted wide-character output conversion
+wprintf (3)          - formatted wide-character output conversion
+XtAsprintf (3)       - memory management functions
+$ man 3 strcat        # look up the strcat function in the C libraries
+```
+
 ---
 
 # `git` and GitHub
@@ -440,6 +568,44 @@ reconnect to an existing session__. Here’s a couple of tutorials:
 Note that these tutorials may ask you install software. You can't install
 software on Lily--you don't have the proper permissions. But, you shouldn't need
 to; I have installed all the software necessary for success in this class.
+
+---
+
+# Passwordless SSH
+
+You can set up SSH so that you don't need to enter your password each time. To
+do so, you'll need to generate a public/private key pair, and copy the public
+key to the remote computer.
+
+Do the following _on your local computer_:
+
+```
+$ ssh-keygen -t rsa -b 4096 -C "your_email@address.com"
+```
+
+Hit enter to accept the default file location. When it prompts you for a
+password, __just hit enter__--do not enter a password!
+
+Now, copy you newly-generated SSH id to the remote machine:
+
+```
+$ ssh-copy-id user@lily.rhodes.edu
+```
+
+Now you should be able to log in without using a password.
+
+## Passwordless ssh between lily/iris
+
+To SSH between lily and iris without using a password, follow the same step
+running `ssh-keygen` __while you are logged in to lily__. Then, simply do the
+following:
+
+```
+$ cat .ssh/id_rsa.pub > ~/.ssh/authorized_keys
+```
+
+Now you should be able to simply run `ssh iris` to connect to iris without a
+password.
 
 ---
 
