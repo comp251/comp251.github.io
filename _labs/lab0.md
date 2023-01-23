@@ -10,6 +10,15 @@ started!
 
 The lab is due 1/30.
 
+{: .important }
+Before you get started, I recommend looking over the course resourses. In
+particular, the resources on [ssh](/resources/ssh), [git](/resources/git), and
+the [Linux command line](/resources/linux).
+
+{: .important }
+The handout assumes that you followed the
+[instructions](/resources/git/#setting-up-git) for setting up git.
+
 # Lab 0 Handout
 
 {% include_relative lab0/README.md %}
