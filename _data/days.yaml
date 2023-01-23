@@ -44,7 +44,7 @@
   day: 23
   topic: Intro to Linux 🐧
   reading: "[DIS](resources/books): Chapters 0-1<br/>[TLCL](resources/books): Chapters 1-4"
-  assignment: "[Lab 0](labs/lab0){: .btn-blue .mr-2}" 
+  assignment: "[Lab 0](labs/lab0){: .btn-blue .mr-2 }<br/>[HW 2](homework/hw2){: .btn-purple .mr-2 }" 
 
 - month_name: January
   month: 1
