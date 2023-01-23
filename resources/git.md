@@ -18,6 +18,19 @@ You'll be writing Markdown files for lab writeups. GitHub has provided a nice
 sheet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 for formatting a document using Markdown.
 
+## git resources
+
+* This [series of videos](https://git-scm.com/videos) does a good job of
+  providing an overview of version control and git.
+* The [git book](https://git-scm.com/book/en/v2) (especially chapters 1--3)
+  provide a nice overview of git.
+* GitHub has a
+  [guide](https://docs.github.com/en/get-started/using-git/about-git) for git
+  beginners.
+* GitHub also has videos on YouTube, including [this
+  playlist](https://www.youtube.com/playlist?list=PLg7s6cbtAD15Das5LK9mXt_g59DLWxKUe)
+  that covers some basics.
+
 ## Setting up `git`
 
 When you log in to lily, you should configure git with your identity:
