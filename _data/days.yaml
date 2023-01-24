@@ -34,7 +34,7 @@
   month: 1
   day_name: Friday
   day: 20
-  topic: Representation (`01`) wrap-up <br/>
+  topic: Representation (`01`) 
   reading:
   assignment:
 
@@ -42,7 +42,7 @@
   month: 1
   day_name: Monday
   day: 23
-  topic: Intro to Linux 🐧
+  topic: Representation (`10`) wrap-up <br />
   reading: "[DIS](resources/books): Chapters 0-1<br/>[TLCL](resources/books): Chapters 1-4"
   assignment: "[Lab 0](labs/lab0){: .btn-blue .mr-2 }<br/>[HW 2](homework/hw2){: .btn-purple .mr-2 }" 
 
@@ -50,7 +50,7 @@
   month: 1
   day_name: Wednesday
   day: 25
-  topic: 'Linux wrap-up <br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
+  topic: 'Linux 🐧<br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
   reading: 
   assignment:
 
@@ -66,7 +66,7 @@
   month: 1
   day_name: Monday
   day: 30
-  topic: "C: syntax and types"
+  topic: "C: syntax and types ✍️"
   reading:
   assignment:
 
@@ -82,7 +82,7 @@
   month: 2
   day_name: Friday
   day: 3
-  topic: "C: strings, `string.h`, `strtok`"
+  topic: "C: strings, `string.h`, `strtok` 🪙"
   reading: "DIS: Chapter 13.2"  
   assignment: "[Lab 1](labs/lab1){: .btn-blue .mr-2}"
 
@@ -90,7 +90,7 @@
   month: 2
   day_name: Monday
   day: 6
-  topic: "C memory; stack vs. heap; processes" 
+  topic: "C memory 🤔; stack vs. heap; processes" 
   reading:
   assignment:
 
