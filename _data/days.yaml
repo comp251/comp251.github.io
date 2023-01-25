@@ -50,7 +50,7 @@
   month: 1
   day_name: Wednesday
   day: 25
-  topic: 'Linux 🐧<br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
+  topic: 'Unix and Linux 🐧'
   reading: 
   assignment:
 
@@ -58,7 +58,7 @@
   month: 1
   day_name: Friday
   day: 27
-  topic: Introduction to C 🦾
+  topic: 'Introduction to C 🦾<br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
   reading:
   assignment: 
 
