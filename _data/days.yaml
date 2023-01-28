@@ -58,7 +58,7 @@
   month: 1
   day_name: Friday
   day: 27
-  topic: 'Introduction to C 🦾<br/>GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
+  topic: 'GitHub and git <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20" align="absmiddle"/>'
   reading:
   assignment: 
 
@@ -66,7 +66,7 @@
   month: 1
   day_name: Monday
   day: 30
-  topic: "C: syntax and types ✍️"
+  topic: "Introduction to C 🦾<br/>C: syntax and types ✍️"
   reading:
   assignment:
 
