@@ -66,15 +66,15 @@
   month: 1
   day_name: Monday
   day: 30
-  topic: "Introduction to C 🦾<br/>C: syntax and types ✍️"
-  reading:
+  topic: "Introduction to C 🦾<br/>C: syntax ✍️"
+  reading: "[Code](https://github.com/comp251/code-from-class/tree/main/c-day0)"
   assignment:
 
 - month_name: February
   month: 2
   day_name: Wednesday
   day: 1
-  topic: "C: IO, arrays, and strings"
+  topic: "C: types, IO, arrays, and strings"
   reading: "DIS: Chapter 2"
   assignment:
 
