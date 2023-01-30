@@ -72,3 +72,8 @@ ssh keys when using ssh. __We will use ssh.__
   12. Paste the output from the `cat` command into the "key" box.
   13. Click "Add SSH key."
 
+## Previewing markdown
+
+To preview a markdown file on lily (which does not have a GUI), you can do `$ mdview.sh markdown-file.md`.
+This is just a tiny shell script that runs `$ pandoc markdown-file.md | lynx -stdin`.
+
