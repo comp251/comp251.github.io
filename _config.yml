@@ -71,3 +71,4 @@ nav_external_links:
 
 aux_links:
   Marion Lang: https://ml8.github.io
+  "dark/light": "javascript:toggle_colormode();"
