@@ -144,6 +144,9 @@ reported to Honor Council and will result in the grade of F for the course.
 
 ## Late work
 
+Physical homework assignments are due in class the day that they are due. Lab
+and programming assignments are due at midnight on the day that they are due.
+
 You may turn in work after the deadline for partial credit, with a penalty that
 increases day-over-day.
 
