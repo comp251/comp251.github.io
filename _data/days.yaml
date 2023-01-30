@@ -75,7 +75,7 @@
   day_name: Wednesday
   day: 1
   topic: "C: types, IO, arrays, and strings"
-  reading: "DIS: Chapter 2"
+  reading: "[DIS Chapter 2](resources/books)"
   assignment:
 
 - month_name: February
