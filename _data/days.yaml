@@ -75,7 +75,7 @@
   day_name: Wednesday
   day: 1
   topic: "C: types, IO, arrays, and strings"
-  reading: "[DIS Chapter 2](resources/books)"
+  reading: "[DIS Chapter 2](resources/books){: .btn }"
   assignment:
 
 - month_name: February
@@ -83,7 +83,7 @@
   day_name: Friday
   day: 3
   topic: "C: strings, `string.h`, `strtok` 🪙"
-  reading: "DIS: Chapter 13.2"  
+  reading: "[DIS Chapter 13.2](resources/books){: .btn }"  
   assignment: "[Lab 1](labs/lab1){: .btn .btn-blue .mr-2}"
 
 - month_name: February
