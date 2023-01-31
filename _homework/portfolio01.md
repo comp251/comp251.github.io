@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Programming Portfolio (kata 1)"
-nav_order: 4
+title: "Kata 1 (Due 2/15)"
+nav_order: 5
 nav_exclude: true
 ---
 
@@ -107,4 +107,4 @@ $ git push -u origin <your-branch>
 ```
 
 There will be a link to create a pull request in the upload message. Click the
-link and create a PR. Add one of the TAs as a reviewer!
+link and create a PR. Add me as reviewer.

@@ -1,13 +1,18 @@
 ---
 layout: default
-title: "Programming Portfolio (kata 0)"
-nav_order: 3
+title: "Kata 0 (Due 2/8)"
+nav_order: 4
 nav_exclude: true
 ---
 
 # Programming Kata 0
 
 Welcome to your first programming exercise for your portfolio!
+
+{: .important }
+If you have not already done so, follow the instructions in the [portfolio
+intro](homework/portfolio_intro). You **must** do this before starting this
+assignment!
 
 If you have not done so yet already, clone your portfolio on lily. 
 
@@ -20,7 +25,14 @@ for this assignment.
 
 ```
 $ cd <your-portfolio-directory>
-$ git checkout -b <your-branch-name>
+$ git checkout -b exercise00
+```
+
+Validate that you are indeed **using a branch** (the output should start with
+"On branch exercise00"):
+
+```
+$ git status
 ```
 
 {: .warning }
@@ -121,8 +133,8 @@ Commit your code and push it to GitHub!
 
 ```
 $ git commit -m "<your commit message>"
-$ git push -u origin <your-branch>
+$ git push -u origin exercise00
 ```
 
 There will be a link to create a pull request in the upload message. Click the
-link and create a PR. Add one of the TAs as a reviewer!
+link and create a PR. Assign me as reviewer.
