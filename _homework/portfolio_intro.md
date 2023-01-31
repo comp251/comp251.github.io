@@ -77,8 +77,9 @@ and initialize your repository.
 2. From the repository page, click on Settings, then Collaborators (see image
    screenshot below).
 
-   * Add me ([@ml8](https://github.com/ml8)) and the course TAs (TBD) as
-     collaborators. We should be given the "Maintain" role.
+   * Add me ([@ml8](https://github.com/ml8)) and
+     [the course TAs](/resources/getting_help/#tutoring)
+     as collaborators. We should be given the "Maintain" role.
 
    ![](/assets/repo-collaborators.png)
    

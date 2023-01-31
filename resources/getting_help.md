@@ -38,12 +38,14 @@ lounge). The room code is `0337#`.
 
 Computer Systems TAs for Spring'23:
 
-Tim Daso | dastp-23
-Donald Wilson | wilds-23
-Gibby Fakes | fakmg-23
-Kyla Bursey | burkr-24
-Luis Gallegos | gallf-23
-Kairos Wong | wonzh-24
+Name | email | GitHub ID
+---|---|----
+Donald Wilson | wilds-23 | @donaldwilson8
+Gibby Fakes | fakmg-23 | @fakmg-23
+Kairos Wong | wonzh-24 | kairos310
+Kyla Bursey | burkr-24 | @krbursey
+Luis Gallegos | gallf-23 | @luisgallegos23
+Tim Daso | dastp-23 | @TimDaso
 
 ## How to use tutoring
 
