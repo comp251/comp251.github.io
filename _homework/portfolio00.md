@@ -2,14 +2,13 @@
 layout: default
 title: "Kata 0 (Due 2/8)"
 nav_order: 4
-nav_exclude: true
 ---
 
 # Programming Kata 0
 
 Welcome to your first programming exercise for your portfolio!
 
-{: .important }
+{: .warning }
 If you have not already done so, follow the instructions in the [portfolio
 intro](homework/portfolio_intro). You **must** do this before starting this
 assignment!
