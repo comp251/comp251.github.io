@@ -74,8 +74,8 @@
   month: 2
   day_name: Wednesday
   day: 1
-  topic: "__No class: ice storm__"
-  reading: Video (TBA)
+  topic: "__No class: ice storm__<br/>[video - exercises + io](https://rhodes.box.com/s/3cafnl8zqm1g236oxnd843h3zla5iqd0)<br/>[notes](/assets/video2-1-notes.pdf)"
+  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/c-io){: .btn .btn-green .mr-2 }"
   assignment: "[Kata 0](homework/portfolio00){: .btn .btn-purple .mr-2 }"
 
 - month_name: February

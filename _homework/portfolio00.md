@@ -10,7 +10,7 @@ Welcome to your first programming exercise for your portfolio!
 
 {: .warning }
 If you have not already done so, follow the instructions in the [portfolio
-intro](homework/portfolio_intro). You **must** do this before starting this
+intro](/homework/portfolio_intro). You **must** do this before starting this
 assignment!
 
 If you have not done so yet already, clone your portfolio on lily. 
