@@ -74,31 +74,31 @@
   month: 2
   day_name: Wednesday
   day: 1
-  topic: "C: types, IO, arrays, and strings"
-  reading: "[DIS Chapter 2](resources/books){: .btn }"
-  assignment:
+  topic: "__No class: ice storm__"
+  reading: Video (TBA)
+  assignment: "[Kata 0](homework/portfolio00){: .btn .btn-purple .mr-2 }"
 
 - month_name: February
   month: 2
   day_name: Friday
   day: 3
+  topic: "C: types, IO, arrays, and strings" 
+  reading: "[DIS Chapter 2](resources/books){: .btn }"
+  assignment:
+
+- month_name: February
+  month: 2
+  day_name: Monday
+  day: 6
   topic: "C: strings, `string.h`, `strtok` 🪙"
   reading: "[DIS Chapter 13.2](resources/books){: .btn }"  
   assignment: "[Lab 1](labs/lab1){: .btn .btn-blue .mr-2}"
 
 - month_name: February
   month: 2
-  day_name: Monday
-  day: 6
-  topic: "C memory 🤔; stack vs. heap; processes" 
-  reading:
-  assignment:
-
-- month_name: February
-  month: 2
   day_name: Wednesday
   day: 8
-  topic: Processes (cont); `fork` and `exec`
+  topic: "C memory 🤔; stack vs. heap; processes" 
   reading:
   assignment:
 
@@ -106,7 +106,7 @@
   month: 2
   day_name: Friday
   day: 10
-  topic:
+  topic: Processes (cont); `fork` and `exec`
   reading:
   assignment:
 
