@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Programming Portfolio (intro)"
+title: "Katas (Programming Portfolio)"
 nav_order: 1
 ---
 
@@ -16,7 +16,7 @@ of work that you can share will be important, as it gives evidence for the
 claims that you make on your resume.
 
 To achieve this goal, you will be writing __at least one small program per
-week__, starting after [lab 0](labs/lab0) (due date TBD).
+week__, starting after [lab 0](labs/lab0).
 
 # The practice of programming
 
