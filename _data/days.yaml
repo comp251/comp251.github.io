@@ -82,7 +82,7 @@
   month: 2
   day_name: Friday
   day: 3
-  topic: "C: types, IO, arrays, and strings" 
+  topic: "C: types" 
   reading: "[DIS Chapter 2](resources/books){: .btn }"
   assignment:
 
@@ -90,7 +90,7 @@
   month: 2
   day_name: Monday
   day: 6
-  topic: "C: strings, `string.h`, `strtok` 🪙"
+  topic: "C: arrays, strings, `string.h`, `strtok` 🪙"
   reading: "[DIS Chapter 13.2](resources/books){: .btn }"  
   assignment: "[Lab 1](labs/lab1){: .btn .btn-blue .mr-2}"
 
