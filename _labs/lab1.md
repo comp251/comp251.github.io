@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Lab 1
+title: Lab 1 (due 2/17)
 nav_order: 1
 ---
 
-Below is the handout for Lab 1. Accept the assignment (TBD) on GitHub Classroom
-to get started!
+Below is the handout for Lab 1. [Accept the
+assignment](https://classroom.github.com/a/5i3G8OKD) on GitHub Classroom to get
+started!
 
 # Lab 1 Handout
 
