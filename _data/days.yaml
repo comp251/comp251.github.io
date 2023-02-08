@@ -98,15 +98,15 @@
   month: 2
   day_name: Wednesday
   day: 8
-  topic: "C memory 🤔; stack vs. heap; processes" 
+  topic: "`string.h`, `strtok`, pointers"
   reading:
-  assignment:
+  assignment: "[Kata 1](homework/portfolio01){: .btn .btn-purple .mr-2 }"
 
 - month_name: February
   month: 2
   day_name: Friday
   day: 10
-  topic: Processes (cont); `fork` and `exec`
+  topic: "C memory 🤔; stack vs. heap; processes (`fork` + `exec`)" 
   reading:
   assignment:
 

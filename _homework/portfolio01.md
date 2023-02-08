@@ -2,7 +2,6 @@
 layout: default
 title: "Kata 1 (Due 2/15)"
 nav_order: 5
-nav_exclude: true
 ---
 
 # Programming Kata 1
@@ -73,6 +72,7 @@ $
 * Use `strlen` to determine the length of the word the user input (you will need
   to `#include <string.h>`.
 * In a shell, type `$ man strlen` for info about the function.
+* You can either use `scanf` to `fgets` to read string input.
 
 # Turning it in
 
