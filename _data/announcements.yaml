@@ -1,3 +1,6 @@
+- text: "Grades on assigments will now appear in your home directory in the file `251-grades.txt`"
+  date: 2023-02-15 00:00:00 +00
+
 - text: |
     > Upcoming due dates:
     > * HW2: 1/27
