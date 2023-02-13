@@ -114,7 +114,7 @@
   month: 2
   day_name: Monday
   day: 13
-  topic: "`strtok`, processes (`fork` + `exec`)"
+  topic: "`strtok`"
   reading:
   assignment:
 
@@ -122,7 +122,7 @@
   month: 2
   day_name: Wednesday
   day: 15
-  topic: "Processes (cont); stack vs. heap 🤔"
+  topic: "Processes (`fork` + `exec`); stack vs. heap 🤔"
   reading: "[DIS Chapter 3](resources/books){: .btn }"
   assignment:
 
