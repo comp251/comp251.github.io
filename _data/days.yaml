@@ -115,7 +115,7 @@
   day_name: Monday
   day: 13
   topic: "`strtok`"
-  reading:
+  reading: "[class code](https://github.com/comp251/code-from-class/blob/main/strings/strtok.c){: .btn .btn-green .mr-2 }"
   assignment:
 
 - month_name: February
