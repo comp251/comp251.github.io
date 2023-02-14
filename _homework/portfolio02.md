@@ -2,7 +2,6 @@
 layout: default
 title: "Kata 2 (Due 2/22)"
 nav_order: 6
-nav_exclude: true
 ---
 
 # Programming Kata 2

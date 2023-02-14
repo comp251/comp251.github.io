@@ -124,7 +124,7 @@
   day: 15
   topic: "Processes (`fork` + `exec`); stack vs. heap 🤔"
   reading: "[DIS Chapter 3](resources/books){: .btn }"
-  assignment:
+  assignment: "[Kata 2](homework/portfolio02){: .btn .btn-purple .mr-2 }"
 
 - month_name: February
   month: 2
