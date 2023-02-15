@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lab 1 (due 2/20)
+title: Lab 1 (due 2/22)
 nav_order: 1
 ---
 
