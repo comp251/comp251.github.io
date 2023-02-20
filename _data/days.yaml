@@ -130,7 +130,7 @@
   month: 2
   day_name: Friday
   day: 17
-  topic: "Processes (`fork` + `exec`); stack vs. heap 🤔"
+  topic: "Processes: `fork` + `exec` 🍴"
   reading: 
   assignment:
 
@@ -138,7 +138,7 @@
   month: 2
   day_name: Monday
   day: 20
-  topic: "stack vs. heap; pointers"  
+  topic: "Stack vs. heap memory 🤔"  
   reading:
   assignment:
 
@@ -146,7 +146,7 @@
   month: 2
   day_name: Wednesday
   day: 22
-  topic: "gdb; pointers (cont)"
+  topic: "Stack vs. heap"
   reading:
   assignment:
 
