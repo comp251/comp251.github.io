@@ -2,7 +2,6 @@
 layout: default
 title: "Kata 3 (Due 3/1)"
 nav_order: 7
-nav_exclude: true
 ---
 
 # Programming Kata 3
@@ -73,8 +72,8 @@ Enter a number: ^C
   This results in a 2-D array with 2 rows, 4 columns, and each element is 5
   characters (so it can include a 4 char string with a null-terminator).
 
-  | `abcd` | `efgh` | `ijkl` | `mnop` |
-  | `qrst` | `uvwx` | `yz12` | `3456` |
+  | `abcd` (`[0][0]`) | `efgh` (`[0][1]`) | `ijkl` (`[0][2]`) | `mnop` (`[0][3]`) |
+  | `qrst` (`[1][0]`) | `uvwx` (`[1][1]`) | `yz12` (`[1][2]`) | `3456` (`[1][3]`) |
 
 * Note that `int` type will be less than 10 digits; if you use an array to store
   the digits of the number that was entered, you can assume that 10 digits is
