@@ -147,14 +147,14 @@
   day_name: Wednesday
   day: 22
   topic: "Stack vs. heap"
-  reading:
-  assignment:
+  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/memory){: .btn .btn-green .mr-2 }<br/>[DIS Chapter 2](resources/books){: .btn .mr-2 }<br/>[HFC Chapter 5+6](resources/books){: .btn .mr-2 }"
+  assignment: "[Kata 3](homework/portfolio03){: .btn .btn-purple .mr-2 }"
 
 - month_name: February
   month: 2
   day_name: Friday
   day: 24
-  topic:
+  topic: "Stack vs. heap; dynamic memory"
   reading:
   assignment:
 
