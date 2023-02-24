@@ -154,15 +154,15 @@
   month: 2
   day_name: Friday
   day: 24
-  topic: "Stack vs. heap; dynamic memory"
+  topic: "Stack vs. heap; gdb 🐞"
   reading:
-  assignment:
+  assignment: "[Lab 2](labs/lab2){: .btn .btn-blue }"
 
 - month_name: February
   month: 2
   day_name: Monday
   day: 27
-  topic:
+  topic: "Dynamic memory"
   reading:
   assignment:
 
