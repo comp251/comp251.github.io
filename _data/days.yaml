@@ -155,8 +155,8 @@
   day_name: Friday
   day: 24
   topic: "Stack vs. heap; gdb 🐞"
-  reading:
-  assignment: "[Lab 2](labs/lab2){: .btn .btn-blue }"
+  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/memory){: .btn .btn-green .mr-2 }"
+  assignment: "[Lab 2](labs/lab2){: .btn .btn-blue .mr-2 }"
 
 - month_name: February
   month: 2
