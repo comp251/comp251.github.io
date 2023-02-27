@@ -162,23 +162,23 @@
   month: 2
   day_name: Monday
   day: 27
-  topic: "Dynamic memory"
-  reading:
+  topic: "Dynamic memory 💫"
+  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/memory){: .btn .btn-green .mr-2 }" 
   assignment:
 
 - month_name: March
   month: 3
   day_name: Wednesday
   day: 1
-  topic:
-  reading:
+  topic: "`malloc`/`free` + friends 📝"
+  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/memory){: .btn .btn-green .mr-2 }" 
   assignment:
 
 - month_name: March
   month: 3
   day_name: Friday
   day: 3
-  topic:
+  topic: "Heap management 🚜"
   reading:
   assignment:
 
@@ -186,7 +186,7 @@
   month: 3
   day_name: Monday
   day: 6
-  topic:
+  topic: "`struct` + abstract data types ☁️"
   reading:
   assignment:
 
@@ -194,7 +194,7 @@
   month: 3
   day_name: Wednesday
   day: 8
-  topic:
+  topic: Midterm Exam
   reading:
   assignment:
 
@@ -202,7 +202,7 @@
   month: 3
   day_name: Friday
   day: 10
-  topic:
+  topic: "Linked data structures ⛓️"
   reading:
   assignment:
 
