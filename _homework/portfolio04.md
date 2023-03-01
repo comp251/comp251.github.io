@@ -31,9 +31,10 @@ $ vim reverse.c
 # Assignment
 
 Write a program that repeatedly reads integers from standard input (one per
-line) and adds them to a data structure. When EOF is reached (`fgets` returns
-`NULL`), the program prints out the digits in reverse order. Your solution must
-read until EOF so that it can be used with a unix pipe (see last example below).
+line) and adds them to a data structure. When `EOF` (end of file) is reached
+(`fgets` returns `NULL`), the program prints out the digits in reverse order.
+Your solution must read until EOF so that it can be used with a unix pipe (see
+last example below).
 
 ```
 $ gcc reverse.c -o reverse
@@ -63,6 +64,8 @@ $ cat nums.txt | ./reverse
 * "A data structure" here can mean anything: an array, a stack, a linked list,
   etc. However, you must implement this yourself. An array is the easiest
   choice.
+
+* You can type the EOF character with ctrl-d.
 
 * Your program must accept any amount of input.
 
