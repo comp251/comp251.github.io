@@ -172,7 +172,7 @@
   day: 1
   topic: "`malloc`/`free` + friends 📝"
   reading: "[class code](https://github.com/comp251/code-from-class/tree/main/memory){: .btn .btn-green .mr-2 }" 
-  assignment: "[Kata 3](homework/portfolio03){: .btn .btn-purple .mr-2 }"
+  assignment: "[Kata 4](homework/portfolio04){: .btn .btn-purple .mr-2 }"
 
 - month_name: March
   month: 3
