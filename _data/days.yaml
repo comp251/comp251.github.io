@@ -186,7 +186,7 @@
   month: 3
   day_name: Monday
   day: 6
-  topic: "`struct` + abstract data types ☁️"
+  topic: "Exam Qs + `struct`"
   reading:
   assignment:
 
@@ -202,7 +202,7 @@
   month: 3
   day_name: Friday
   day: 10
-  topic: "Linked data structures ⛓️"
+  topic: "Abstract data types ☁️"
   reading:
   assignment:
 
@@ -234,7 +234,7 @@
   month: 3
   day_name: Monday
   day: 20
-  topic:
+  topic: "Linked data structures ⛓️"
   reading:
   assignment:
 
