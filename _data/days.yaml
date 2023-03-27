@@ -258,15 +258,15 @@
   month: 3
   day_name: Monday
   day: 27
-  topic:
-  reading:
+  topic: "The memory hierarchy 🧠<br/>Virtual memory 🤖"
+  reading: "[DIS Chapter 11.1 + 13](resources/books){: .btn .mr-2 }"
   assignment:
 
 - month_name: March
   month: 3
   day_name: Wednesday
   day: 29
-  topic:
+  topic: "Virtual memory; the heap 🏔️"
   reading:
   assignment:
 
