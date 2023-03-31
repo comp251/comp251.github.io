@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git submodule update --remote _labs/lab0
-git submodule update --remote _labs/lab1
-git submodule update --remote _labs/lab2
-git submodule update --remote _labs/lab3
+for lab in $(find _labs -type d -depth 1); do 
+  printf "updating lab %s...\n" "$lab"
+  git submodule update --remote $lab
+done

@@ -266,7 +266,7 @@
   month: 3
   day_name: Wednesday
   day: 29
-  topic: "Virtual memory; the heap 🏔️"
+  topic: "Virtual memory"
   reading:
   assignment:
 
@@ -274,15 +274,15 @@
   month: 3
   day_name: Friday
   day: 31
-  topic:
-  reading:
-  assignment:
+  topic: "Virtual memory; the heap 🏔️"
+  reading: "[CS:APP -- 9.8-9.12](resources/books/){: .btn .mr-2 }"
+  assignment: "[Lab 4](labs/lab4){: .btn .btn-blue .mr-2 }"
 
 - month_name: April
   month: 4
   day_name: Monday
   day: 3
-  topic:
+  topic: "Heap organization; `sbrk` and `mmap` 🗺️"
   reading:
   assignment:
 
@@ -290,7 +290,7 @@
   month: 4
   day_name: Wednesday
   day: 5
-  topic:
+  topic: "Heap organization (cont)"
   reading:
   assignment:
 
