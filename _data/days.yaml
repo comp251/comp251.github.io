@@ -275,7 +275,7 @@
   day_name: Friday
   day: 31
   topic: "Virtual memory; the heap 🏔️"
-  reading: "[CS:APP -- 9.8-9.12](resources/books/){: .btn .mr-2 }"
+  reading: "[CS:APP -- 9.8-9.12](resources/books/){: .btn .mr-2 }<br/>[Lecture slides](https://docs.google.com/presentation/d/12CEi2NveK29iZtPhTd6E5s2gGAGcT3yqWB5pC7zA5Gk/edit?usp=sharing){: .btn .btn-green .mr-2}"
   assignment: "[Lab 4](labs/lab4){: .btn .btn-blue .mr-2 }"
 
 - month_name: April
