@@ -283,7 +283,7 @@
   day_name: Monday
   day: 3
   topic: "Heap organization; `sbrk` and `mmap` 🗺️"
-  reading:
+  reading: "[Diagram handout](assets/paging.png){: .btn .btn-green .mr-2 }"
   assignment:
 
 - month_name: April
