@@ -2,7 +2,6 @@
 layout: default
 title: "Kata 5 (Due 4/14)"
 nav_order: 9
-nav_exclude: true
 ---
 
 # Programming Kata 5
@@ -28,7 +27,7 @@ For this exercise, you've been given some starter code. You can do the following
 to download and extract it:
 
 ```
-$ curl http://251.systems/assets/kata05-starter.tar.gz | tar -xz
+$ curl https://comp251.github.io/assets/kata05-starter.tar.gz | tar -xz
 ```
 
 Now create your C file and start coding!
