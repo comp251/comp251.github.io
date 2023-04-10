@@ -322,8 +322,8 @@
   month: 4
   day_name: Friday
   day: 14
-  topic:
-  reading:
+  topic: "Sockets intro"
+  reading: "[BGNP -- 1-6](resources/books/){: .btn .mr-2 }"
   assignment:
 
 - month_name: April

@@ -18,6 +18,7 @@ These acronyms will be used in reading assignments.
 * (CPL) - [The C Programming Language](https://rhodes.box.com/s/e5mhher0zqhz2305d6oc8sgjlzv7vb68)
 * (HFC) - [Head First C](https://rhodes.box.com/s/ikhig2m483x1tgqvv6npo2lhwjrh66rm)
 * (TLCL) - [The Linux Command Line](/assets/TLCL-19.01.pdf)
+* (BGNP) - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
 
 ## Useful texts
 
