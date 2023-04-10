@@ -282,7 +282,7 @@
   month: 4
   day_name: Monday
   day: 3
-  topic: "Heap organization; `sbrk` and `mmap` 🗺️"
+  topic: "Virtual memory and paging"
   reading: "[Diagram handout](assets/paging.png){: .btn .btn-green .mr-2 }"
   assignment:
 
@@ -290,7 +290,7 @@
   month: 4
   day_name: Wednesday
   day: 5
-  topic: "Heap organization (cont)"
+  topic: "Virtual memory and paging (cont)"
   reading:
   assignment: "[Kata 5](homework/portfolio05){: .btn .btn-purple .mr-2 }"
 
@@ -306,16 +306,16 @@
   month: 4
   day_name: Monday
   day: 10
-  topic:
-  reading:
+  topic: "Virtual memory wrap-up; `sbrk` and `mmap` 🗺️"
+  reading: "[CS:APP -- 11.1-11.4](resources/books/){: .btn .mr-2 }"
   assignment:
 
 - month_name: April
   month: 4
   day_name: Wednesday
   day: 12
-  topic:
-  reading:
+  topic: "Network programming intro 🔌"
+  reading: 
   assignment:
 
 - month_name: April
