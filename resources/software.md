@@ -36,5 +36,7 @@ nav_order: 2
   * [WinSCP](https://winscp.net/eng/index.php) is a Windows SCP program.
   * ~[PuTTY](https://www.putty.org/) is a commonly-used SSH client.~ Note: I
     used to recommend PuTTY, but modern versions of Windows ship with `ssh`).
+  * [mobaxterm](https://mobaxterm.mobatek.net/) is a SSH client recommended by a
+    student.
   * Do you have a terminal emulator or ssh client that you prefer? Let me know!
 
