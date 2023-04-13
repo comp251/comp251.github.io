@@ -89,8 +89,8 @@ parse. You can find a ton of open datasets on
 from papers in the survey linked previously.
 
 If you open the data set to take a look at it
-(e.g., in Vim---`$ vim /opt/share/251/data/sentiments`), you'll see that it has
-the following format:
+(e.g., in Vim---`$ vim /opt/share/251/data/sentiments.txt`), you'll see that it
+has the following format:
 
 * Comment lines are prefixed with `#`.
 * Non comment lines consist of 6 fields that are separated by tabs. The six
