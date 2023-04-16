@@ -13,3 +13,6 @@
 [submodule "_labs/lab4"]
 	path = _labs/lab4
 	url = https://github.com/comp251/comp251-lab4.git
+[submodule "_labs/lab5"]
+	path = _labs/lab5
+	url = https://github.com/comp251/comp251-lab5.git

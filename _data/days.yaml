@@ -322,7 +322,7 @@
   month: 4
   day_name: Friday
   day: 14
-  topic: "Sockets intro"
+  topic: "The internet 🌐"
   reading: "[BGNP -- 1-6](resources/books/){: .btn .mr-2 }"
   assignment:
 
@@ -330,9 +330,9 @@
   month: 4
   day_name: Monday
   day: 17
-  topic:
-  reading:
-  assignment:
+  topic: "Sockets intro 🔌"
+  reading: 
+  assignment: "[Lab 5](labs/lab54){: .btn .btn-blue .mr-2 }"
 
 - month_name: April
   month: 4
