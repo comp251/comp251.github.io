@@ -1,3 +1,14 @@
+- text: "The website is updated with the readings + schedule for the rest of the semester"
+  date: 2023-04-28 00:00:00 +00
+
+- text: |
+    > After the semester ends, I will be cleaning up accounts. You will need to get files off of lily/iris by 5/16.
+    > You should read the resources page on [ssh](resources/ssh/) if you have not yet done so.
+  date: 2023-05-16 00:00:00 +00
+
+- text: "Have a great summer!"
+  date: 2023-06-01 00:00:00 +00
+
 - text: |
     > __IMPORTANT__ GitHub changed one of its SSH keys. If you try to push to GitHub, you'll get an error.
     >

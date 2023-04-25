@@ -338,7 +338,7 @@
   month: 4
   day_name: Wednesday
   day: 19
-  topic:
+  topic: "Sockets: client/server functions"
   reading:
   assignment:
 
@@ -346,7 +346,7 @@
   month: 4
   day_name: Friday
   day: 21
-  topic:
+  topic: "Network programming with protocols"
   reading: "[class code](https://github.com/comp251/code-from-class/tree/main/sockets){: .btn .btn-green .mr-2 }"
   assignment:
 
@@ -354,16 +354,16 @@
   month: 4
   day_name: Monday
   day: 24
-  topic:
-  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/c-day0){: .btn .btn-green .mr-2 }<br/>[DIS -- 14-14.3](resouces/books/){: .btn .mr-2 }"
+  topic: "Threads intro 🪡"
+  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/sockets){: .btn .btn-green .mr-2 }<br/>[DIS -- 14-14.3](resouces/books/){: .btn .mr-2 }"
   assignment:
 
 - month_name: April
   month: 4
   day_name: Wednesday
   day: 26
-  topic:
-  reading: "[class code](https://github.com/comp251/code-from-class/tree/main/c-day0){: .btn .btn-green .mr-2 }<br/>[DIS -- 14-14.3](resouces/books/){: .btn .mr-2 }"
+  topic: "Threads: synchronization 🧵"
+  reading: "[DIS -- 14-14.3](resouces/books/){: .btn .mr-2 }"
   assignment:
 
 - month_name: April
@@ -373,4 +373,12 @@
   topic: __Rhodes Symposium__
   reading:
   assignment:
+
+- month_name: May
+  month: 5
+  day_name: Saturday
+  day: 6
+  topic: __Final Exam: 1pm__
+  reading:
+  assignment: "Have a good summer!"
 
