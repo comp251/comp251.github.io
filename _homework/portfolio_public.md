@@ -66,7 +66,8 @@ I would probably do the following to clean things up:
   in the [repo
   settings](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
   GitHub will turn your README.md file into a page with only a small amount of
-  configuration.
+  configuration. My [homepage](https://ml8.github.io), for example, is an
+  extremely simple [repository](https://github.com/ml8/ml8.github.io).
 
 ## Moving Forward
 
