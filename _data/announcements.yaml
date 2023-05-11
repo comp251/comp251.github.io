@@ -2,9 +2,10 @@
   date: 2023-04-28 00:00:00 +00
 
 - text: |
-    > After the semester ends, I will be cleaning up accounts. You will need to get files off of lily/iris by 5/16.
+    > After the semester ends, I will be cleaning up accounts. You will need to get files off of lily/iris by __5/18__.
     > You should read the resources page on [ssh](resources/ssh/) if you have not yet done so.
-  date: 2023-05-16 00:00:00 +00
+    > You can use `scp` to retrieve your files (including GUI `scp` clients).
+  date: 2023-05-18 00:00:00 +00
 
 - text: "Have a great summer!"
   date: 2023-06-01 00:00:00 +00
